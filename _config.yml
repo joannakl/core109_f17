@@ -1,0 +1,111 @@
+
+title: CORE-UA 109 (Quantitative Reasoning) 
+description: "Course website for CORE-UA 109 (Quantitative Reasoning) course." 
+
+baseurl: "/core109_f17" # the subpath of your site, e.g. /blog
+url: "https://joannakl.github.io/core109_f17" # the base hostname & protocol for your site, e.g. http://example.com
+
+markdown: kramdown
+kramdown:
+  entity_output: numeric
+  smart_quotes: apos,apos,quot,quot
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+
+
+course_number: "CORE-UA 109"
+course_name: "Quantitative Reasoning" 
+course_section: "001"
+course_semester: "Fall 2017"
+course_time: "Mondays and Wednesdays 9:30AM - 10:45PM, 7E12  (7 East 12th Street), room 125 <br>"
+
+recitation_section: "002"
+recitation_time:  "Thursdays 9:30AM - 10:45AM, Tisch, room LC19 <br>"
+recitation_instructor_full: "TBD" 
+recitation_instructor_name: "TBD" 
+
+
+instructor_office_hours: "TBD" 
+instructor_office_hours_location: "423 WWH" 
+recitation_office_hours: "TBD" 
+recitation_office_hours_location: "TBD" 
+
+tutor_location: "TBD"
+tutor_schedule_link: "http://cs.nyu.edu/~joannakl/cs102_s17/common/#tutoring"
+
+midterm_exam_date: "TBD"
+final_exam_date: "Dec. 18, 8:00 - 9:50 AM"
+final_exams_link: "http://cs.nyu.edu/dynamic/courses/exams/"
+
+piazza_site: 
+github_site: 
+
+book_opt_1: "Python Learning Modules, "
+book_opt_1_author: "Andrew Case, Deena Engel, and Craig Kapp "
+book_opt_1_edition: "" 
+book_opt_1_link: "http://cs.nyu.edu/elearning/CSCI_UA_0002/"
+book_opt_1_note: "**Highly recommented** - used in the Introduction to Computer Programming course."
+book_opt_1_image: "" 
+
+
+book_opt_2: "How to Think Like a Computer Scientist, "
+book_opt_2_author: "Ben Stephenson "
+book_opt_2_edition: "" 
+book_opt_2_link: "http://openbookproject.net/thinkcs/python/english3e/"
+book_opt_2_note: ""
+book_opt_2_image: "" 
+
+
+book_opt_3: "The Python Workbook, "
+book_opt_3_author: "Chris Mayfield, Allen Downey, "
+book_opt_3_edition: "" 
+book_opt_3_link: ""
+book_opt_3_note: "available for download for NYU students through NYU Libraries: 
+1) login to NYU Classes using your net ID
+2) go to Research tab
+3) under NYU Libraries, select Database A-Z
+4) search for *SpringerLink* - this should return a single result, follow the link
+5) if asked, select NYU as you institution
+6) search for *The Python Workbook* - click on the link (should be first result)
+7) select either PDF or ePub formats to download (you can also download one chapter at a time or view it in your browser)"
+book_opt_3_image: "https://images.springer.com/sgw/books/medium/9783319142395.jpg" 
+
+
+book_opt_4: "A Byte of Python, "
+book_opt_4_author: "C. H. Swaroop , "
+book_opt_4_edition: "" 
+book_opt_4_link: "http://python.swaroopch.com/"
+book_opt_4_note: "free online book on programming using Python languege"
+book_opt_4_image: 
+
+
+book_opt_5: "Python Tutor, "
+book_opt_5_author: ""
+book_opt_5_edition: "" 
+book_opt_5_link: "http://www.pythontutor.com/"
+book_opt_5_note: "free online Python environment that allows code visualization
+and execution line-by-line"
+book_opt_5_image: 
+
+
+
+book_opt_6: "Common Sense Mathematics , "
+book_opt_6_author: "Ethan Bolker and Maura Mast, "
+book_opt_6_edition: "" 
+book_opt_6_link: "http://www.maa.org/press/books/common-sense-mathematics"
+book_opt_6_note: "(OPTIONAL) good resource for some of the math topics that we are going to discuss "
+book_opt_6_image: "https://www.maa.org/sites/default/files/images/pubs/books/covers/COSMcover.jpg"
+
+
+
+book_opt_7: "A Byte of Python, "
+book_opt_7_author: "C. H. Swaroop , "
+book_opt_7_edition: "" 
+book_opt_7_link: "http://python.swaroopch.com/"
+book_opt_7_note: "free online book on programming using Python languege"
+book_opt_7_image: 
+
+

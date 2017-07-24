@@ -1,0 +1,39 @@
+---
+layout: default 
+days: 
+    - "01"
+    - "02"
+    - "03"
+  #  - "04" 
+  #  - "05"
+---
+
+
+<div class="titles">
+    <div class="column_date">
+        Date
+    </div>
+    
+    <div class="column_materials">
+        Material Covered, Notes, Handouts and Links 
+    </div>
+    
+    <div class="column_assign">
+        Readings, Assignments, Homework
+    </div>
+</div>  
+
+{% for i in page.days reversed %}
+    {% assign file_name = "daily/" | append:  i  | append: ".html" %}
+    {% include   {{ file_name }} %}
+     
+{% endfor %}
+
+
+
+<br>
+<br>
+        
+        
+        
+        
