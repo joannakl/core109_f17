@@ -24,8 +24,8 @@ course_time: "Mondays and Wednesdays 9:30AM - 10:45PM, 7E12  (7 East 12th Street
 
 recitation_section: "002"
 recitation_time:  "Thursdays 9:30AM - 10:45AM, Tisch, room LC19 <br>"
-recitation_instructor_full: "TBD" 
-recitation_instructor_name: "TBD" 
+recitation_instructor_full: "Scott Floam" 
+recitation_instructor_name: "Scott" 
 
 
 instructor_office_hours: "TBD" 
@@ -56,7 +56,7 @@ book_opt_2_author: "Ben Stephenson "
 book_opt_2_edition: "" 
 book_opt_2_link: "http://openbookproject.net/thinkcs/python/english3e/"
 book_opt_2_note: ""
-book_opt_2_image: "" 
+book_opt_2_image: "http://openbookproject.net/thinkcs/python/english3e/_images/gasp_lessons.png" 
 
 
 book_opt_3: "The Python Workbook, "
