@@ -101,11 +101,46 @@ book_opt_6_image: "https://www.maa.org/sites/default/files/images/pubs/books/cov
 
 
 
-book_opt_7: "A Byte of Python, "
-book_opt_7_author: "C. H. Swaroop , "
+book_opt_7: "Math in Society, "
+book_opt_7_author: "David Lippman, "
 book_opt_7_edition: "" 
-book_opt_7_link: "http://python.swaroopch.com/"
-book_opt_7_note: "free online book on programming using Python languege"
-book_opt_7_image: 
+book_opt_7_link: "https://open.umn.edu/opentextbooks/BookDetail.aspx?bookId=98"
+book_opt_7_note: "free open source book"
+book_opt_7_image: "https://open.umn.edu/opentextbooks/Images/0000MathinSoc.png"
+
+
+
+book_opt_8: "Fundamentals of Mathematics, "
+book_opt_8_author: "Denny Burzynski and Wade Ellis, "
+book_opt_8_edition: "" 
+book_opt_8_link: "https://open.umn.edu/opentextbooks/BookDetail.aspx?bookId=154"
+book_opt_8_note: "free open source book"
+book_opt_8_image: "https://open.umn.edu/opentextbooks/Images/0000FundOfMat.png"
+
+
+
+book_opt_9: "Introductory Statistics, "
+book_opt_9_author: "Douglas Shafer and Zhiyi Zhang, "
+book_opt_9_edition: "" 
+book_opt_9_link: "https://open.umn.edu/opentextbooks/BookDetail.aspx?bookId=135"
+book_opt_9_note: "free open source book"
+book_opt_9_image: "https://open.umn.edu/opentextbooks/Images/9781453344873.png"
+
+
+
+book_opt_10: "Prealgebra, "
+book_opt_10_author: "Lynn Marecek and MaryAnne Anthony-Smith,  "
+book_opt_10_edition: "" 
+book_opt_10_link: "https://open.umn.edu/opentextbooks/BookDetail.aspx?bookId=241"
+book_opt_10_note: "free open source book"
+book_opt_10_image: "https://open.umn.edu/opentextbooks/Images/1938168992.png"
+
+
+book_opt_11: ", "
+book_opt_11_author: ", "
+book_opt_11_edition: "" 
+book_opt_11_link: ""
+book_opt_11_note: "free open source book"
+book_opt_11_image: 
 
 

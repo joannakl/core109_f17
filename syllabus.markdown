@@ -29,6 +29,10 @@ or passed AP exams with score of 4 or 5 should not be registering for this class
 
 ## Mathematics Resources
 
+|<img src="{{site.book_opt_7_image}}" name="Book" border="0px" width="100px">| **[{{ site.book_opt_7 }}]( {{ site.book_opt_7_link }})** {{ site.book_opt_7_edition }}<br> {{ site.book_opt_7_author }} <br> {{ site.book_opt_7_note }}  |
+|<img src="{{site.book_opt_8_image}}" name="Book" border="0px" width="100px">| **[{{ site.book_opt_8 }}]( {{ site.book_opt_8_link }})** {{ site.book_opt_8_edition }}<br> {{ site.book_opt_8_author }} <br> {{ site.book_opt_8_note }}  |
+|<img src="{{site.book_opt_9_image}}" name="Book" border="0px" width="100px">| **[{{ site.book_opt_9 }}]( {{ site.book_opt_9_link }})** {{ site.book_opt_9_edition }}<br> {{ site.book_opt_9_author }} <br> {{ site.book_opt_9_note }}  |
+|<img src="{{site.book_opt_10_image}}" name="Book" border="0px" width="100px">| **[{{ site.book_opt_10 }}]( {{ site.book_opt_10_link }})** {{ site.book_opt_10_edition }}<br> {{ site.book_opt_10_author }} <br> {{ site.book_opt_10_note }}  |
 |<img src="{{site.book_opt_6_image}}" name="Book" border="0px" width="100px">| **[{{ site.book_opt_6 }}]( {{ site.book_opt_6_link }})** {{ site.book_opt_6_edition }}<br> {{ site.book_opt_6_author }} <br> {{ site.book_opt_6_note }}  |
 
 
