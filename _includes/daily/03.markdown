@@ -1,14 +1,13 @@
 
-
-<div class="lecture1">
+<div class="lecture2">
 
 
 
 <div class="column_date">
 <p markdown="block">
 
-Class # 1 <br> 
-Wed, Sep 6 
+Class # 2 <br> 
+Mon, Sep 11 
 
 </p>
 </div>
@@ -18,7 +17,7 @@ Wed, Sep 6
 <div class="column_materials" >
 <p markdown="block">
 
-*Introduction to the class*: syllabus, who we are? why are we here? <br>
+
 
 </p>
 </div>
@@ -28,8 +27,7 @@ Wed, Sep 6
 <div class="column_assign">
 <p markdown="block">
 
-* Sign up for `PythonAnywhere` account.
-* Read the module        
+      
 
 
 </p>

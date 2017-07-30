@@ -1,0 +1,26 @@
+<div class="recitation">
+
+
+
+<div class="column_date">
+<p markdown="block">
+
+Lab # 1 <br> 
+Thu, Sep 7 
+
+</p>
+</div>
+
+
+
+<div class="column_recitation" >
+<p markdown="block">
+
+*Lab 1*: starting with Python <br>
+
+</p>
+</div>
+
+
+
+</div>
