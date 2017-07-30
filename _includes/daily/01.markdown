@@ -42,7 +42,7 @@ at a screen similar to this one
 enter the username of your teacher: **joannakl** 
 
 
-**Study [module 1]({{modules}}/module01.php)**
+**Study [module 1]({{ site.modules }}/module01.php) (due Sept. 11 before the class)**
 
 * If you wish to learn how to install a Python development environment on your own computer, start at the beginning. 
 * Otherwise, start at the section titled *Functions & Function Calls* and use `PythonAnywhere` instead of IDLE.           
