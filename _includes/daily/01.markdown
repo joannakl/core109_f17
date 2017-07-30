@@ -1,8 +1,21 @@
 ------------------
 
-* Header * 
+# Header #
+
+* Sign up for `PythonAnywhere` account.
+* Read the module        
+
+------------------
+
+<div class="lecture1">
+
+-------------------
+
+# Header #
 
 * Sign up for `PythonAnywhere` account.
 * Read the module        
 
 -------------------
+
+</div>
