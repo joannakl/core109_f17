@@ -33,12 +33,26 @@ Wed, Sep 6
 * Sign up for `PythonAnywhere` account.
 * Read the module        
 
+{% comment %}
 sdasldas
 
 
 
     * Sign up for `PythonAnywhere` account.
     * Read the module       
+
+
+{% endcomment %}
+
+<!--
+
+sdasldas
+
+
+
+    * Sign up for `PythonAnywhere` account.
+    * Read the module       
+-->
 
 </p>
 </div>

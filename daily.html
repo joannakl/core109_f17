@@ -22,13 +22,14 @@ days:
         Readings, Assignments, Homework
     </div>
 </div>  
-
+{% comment %}
 {% for i in page.days reversed %}
     {% assign file_name = "daily/" | append:  i  | append: ".markdown" %}
     {% include   {{ file_name }} %}
      
 {% endfor %}
 
+{% endcomment %}
 
 
 {% for i in page.days reversed %}
