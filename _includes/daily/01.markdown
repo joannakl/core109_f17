@@ -21,15 +21,27 @@
 </div>
 
 
-<div class="lecture1" >
-
--------------------
-
-# Header #
-
-* Sign up for `PythonAnywhere` account.
+<div class="lecture1" markdown="1">
+    <div class="column_date">
+        
+        Class # 1 <br> 
+        Wed, Sep 6 
+        
+        
+    </div>
+    
+    <div class="column_materials">
+        
+        Introduction to the class: syllabus, who we are? why are we here? <br>
+         
+        
+        
+    </div>
+    
+    <div class="column_assign">
+        
+* Sign up for PythonAnywhere account.
 * Read the module        
-
--------------------
-
+    </div>
+    
 </div>
