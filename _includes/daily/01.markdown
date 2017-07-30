@@ -22,7 +22,7 @@
 
 
 <div class="lecture1">
-    <div class="column_date" markdown="1">
+    <div class="column_date" markdown="block">
         
         Class # 1 <br> 
         Wed, Sep 6 
