@@ -47,6 +47,7 @@ book_opt_1: "Python Learning Modules, "
 book_opt_1_author: "Andrew Case, Deena Engel, and Craig Kapp "
 book_opt_1_edition: "" 
 book_opt_1_link: "http://cs.nyu.edu/elearning/CSCI_UA_0002/"
+modules: "http://cs.nyu.edu/elearning/CSCI_UA_0002"
 book_opt_1_note: "**Highly recommented** - used in the Introduction to Computer Programming course."
 book_opt_1_image: "" 
 
