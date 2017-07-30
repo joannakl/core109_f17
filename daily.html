@@ -2,8 +2,8 @@
 layout: default 
 days: 
     - "01"
-    - "02"
-    - "03"
+  # - "02"
+  # - "03"
   #  - "04" 
   #  - "05"
 ---
@@ -28,6 +28,17 @@ days:
     {% include   {{ file_name }} %}
      
 {% endfor %}
+
+
+
+{% for i in page.days reversed %}
+    {% assign file_name = "daily/" | append:  i  | append: ".markdown" %}
+    {% capture my_include %}{% include {{ file_name }} %}{% endcapture %}
+{{ my_include | markdownify }}
+     
+{% endfor %}
+
+
 
 
 
