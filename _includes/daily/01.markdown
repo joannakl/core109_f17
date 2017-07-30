@@ -7,6 +7,34 @@
 
 ------------------
 
+
+
+
+<div class="lecture1">
+    <div class="column_date" markdown="span">
+        
+        Class # 1 <br> 
+        Wed, Sep 6 
+        
+        
+    </div>
+    
+    <div class="column_materials" markdown="span">
+        
+        Introduction to the class: syllabus, who we are? why are we here? <br>
+         
+        
+        
+    </div>
+    
+    <div class="column_assign" markdown="span">
+        
+* Sign up for PythonAnywhere account.
+* Read the module        
+    </div>
+    
+</div>
+
 <div class="lecture1" markdown="1">
 
 -------------------
@@ -18,30 +46,4 @@
 
 -------------------
 
-</div>
-
-
-<div class="lecture1">
-    <div class="column_date" markdown="block">
-        
-        Class # 1 <br> 
-        Wed, Sep 6 
-        
-        
-    </div>
-    
-    <div class="column_materials" markdown="1">
-        
-        Introduction to the class: syllabus, who we are? why are we here? <br>
-         
-        
-        
-    </div>
-    
-    <div class="column_assign" markdown="1">
-        
-* Sign up for PythonAnywhere account.
-* Read the module        
-    </div>
-    
 </div>
