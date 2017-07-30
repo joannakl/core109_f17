@@ -18,7 +18,7 @@ Wed, Sep 6
 <div class="column_materials" >
 <p markdown="block">
 
-*Introduction to the class*: syllabus, who we are? why are we here? <br>
+*Introduction to the class*: syllabus, what is this class about? why are we here? is this a class for you?<br>
 
 </p>
 </div>
@@ -28,7 +28,9 @@ Wed, Sep 6
 <div class="column_assign">
 <p markdown="block">
 
-**Sign up for `PythonAnywhere` account and join the class (due Sept. 6 at 11:55pm)**:
+There are three task for you to complete after today's class: 
+
+**1. Sign up for `PythonAnywhere` account and join the class (due Sept. 6 at 11:55pm)**:
 
 * Go to the the website [PythonAnywhere.com](https://www.pythonanywhere.com/)
 * Click the big green button that states: *Start running Python online in less than a minute!*
@@ -42,10 +44,12 @@ at a screen similar to this one
 enter the username of your teacher: **joannakl** 
 
 
-**Study [module 1]({{ site.modules }}/module01.php) (due Sept. 11 before the class)**
+**2. Study [module 1]({{ site.modules }}/module01.php) (due Sept. 11 before the class)**
 
 * If you wish to learn how to install a Python development environment on your own computer, start at the beginning. 
-* Otherwise, start at the section titled *Functions & Function Calls* and use `PythonAnywhere` instead of IDLE.           
+* Otherwise, start at the section titled *Functions & Function Calls* and use `PythonAnywhere` instead of IDLE. 
+
+**3. Complete the quiz for module 1 on NYU Classes (due Sept. 11 before the class)**           
 
 
 </p>

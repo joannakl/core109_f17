@@ -16,7 +16,19 @@ Thu, Sep 7
 <div class="column_recitation" >
 <p markdown="block">
 
-*Lab 1*: starting with Python <br>
+**Starting with Python**
+
+Note: *if you joined the class late, follow the steps to create your account
+on `PythonAnywhere` (see the assignments for class #1) and then contact Joanna
+to get the first lab assignment (do not wait for the actual class meeting, just 
+send an email).* 
+
+- Login to your `PythonAnywhere` account. 
+- Complete the problems listed there in `lab01` folder. The final versions
+(i.e., the ones that will be graded) should be there no later than the due date of
+Sept. 13 at 11:55pm. 
+
+
 
 </p>
 </div>
