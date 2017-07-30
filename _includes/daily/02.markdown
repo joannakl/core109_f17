@@ -16,7 +16,7 @@ Thu, Sep 7
 <div class="column_recitation" >
 <p markdown="block">
 
-**Starting with Python**
+**Starting with Python (due Sept. 13 at 11:55pm)**
 
 Note: *if you joined the class late, follow the steps to create your account
 on `PythonAnywhere` (see the assignments for class #1) and then contact Joanna
