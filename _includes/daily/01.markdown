@@ -11,28 +11,39 @@
 
 
 <div class="lecture1">
-    <div class="column_date" markdown="0">
-        
-        Class # 1 <br> 
-        Wed, Sep 6 
-        
-        
-    </div>
-    
-    <div class="column_materials" markdown="0">
-        
-        Introduction to the class: syllabus, who we are? why are we here? <br>
-         
-        
-        
-    </div>
-    
-    <div class="column_assign" markdown="0">
-        
+
+<div class="column_date">
+<p markdown="block">
+Class # 1 <br> 
+Wed, Sep 6 
+
+</p>
+</div>
+
+
+
+<div class="column_materials" >
+
+<p markdown="block">
+Introduction to the class: syllabus, who we are? why are we here? <br>
+
+
+
+</p>
+</div>
+
+
+
+
+<div class="column_assign">
+
+<p markdown="block">
 * Sign up for PythonAnywhere account.
 * Read the module        
-    </div>
-    
+
+</p>
+</div>
+
 </div>
 
 <div class="lecture1" markdown="1">
