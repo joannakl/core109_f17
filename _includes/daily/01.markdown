@@ -37,7 +37,7 @@ Wed, Sep 6
 * Once you have an account, log in and join the class. When you log in, you should be looking 
 at a screen similar to this one 
 
-    [<img src="{{ site.url }}/resources/images/pythonAnywhere_dashboard.png" alt="PythonAnywhere Dashboard" style="width: 80%;"/>]("{{ site.url }}/resources/images/pythonAnywhere_dashboard.png")
+    [<img src="{{ site.url }}/resources/images/pythonAnywhere_dashboard.png" alt="PythonAnywhere Dashboard" style="width: 80%;"/>]({{ site.url }}/resources/images/pythonAnywhere_dashboard.png)
 * Click on the *Account* link in the upper right corner, switch to the *Teacher* tab and
 enter the username of your teacher: **joannakl** 
 
