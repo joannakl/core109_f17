@@ -31,6 +31,15 @@ days:
 
 
 
+{% for i in page.days reversed %}
+    {% assign file_name = "daily/" | append:  i  | append: ".markdown" %}
+    file_name 
+    {% capture my_include %}{% include {{ file_name }} %}{% endcapture %}
+    {{ my_include | markdownify }}
+     
+{% endfor %}
+
+
 
 
 
