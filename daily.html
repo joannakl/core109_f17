@@ -24,7 +24,7 @@ days:
 </div>  
 
 {% for i in page.days reversed %}
-    {% assign file_name = "daily/" | append:  i  | append: ".html" %}
+    {% assign file_name = "daily/" | append:  i  | append: ".markdown" %}
     {% include   {{ file_name }} %}
      
 {% endfor %}
