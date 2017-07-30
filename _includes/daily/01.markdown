@@ -1,22 +1,13 @@
-------------------
-
-# Header #
-
-* Sign up for `PythonAnywhere` account.
-* Read the module        
-
-------------------
-
-
 
 
 <div class="lecture1">
+
+
 
 <div class="column_date">
 <p markdown="block">
 Class # 1 <br> 
 Wed, Sep 6 
-
 </p>
 </div>
 
@@ -25,7 +16,7 @@ Wed, Sep 6
 <div class="column_materials" >
 
 <p markdown="block">
-Introduction to the class: syllabus, who we are? why are we here? <br>
+*Introduction to the class*: syllabus, who we are? why are we here? <br>
 
 
 
@@ -38,23 +29,11 @@ Introduction to the class: syllabus, who we are? why are we here? <br>
 <div class="column_assign">
 
 <p markdown="block">
-* Sign up for PythonAnywhere account.
-* Read the module        
-
-</p>
-</div>
-
-</div>
-
-<div class="lecture1" markdown="1">
-
--------------------
-
-# Header #
 
 * Sign up for `PythonAnywhere` account.
 * Read the module        
 
--------------------
+</p>
+</div>
 
 </div>
