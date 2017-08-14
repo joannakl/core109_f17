@@ -18,7 +18,12 @@ Wed, Sep 6
 <div class="column_materials" >
 <p markdown="block">
 
-*Introduction to the class*: syllabus, what is this class about? why are we here? is this a class for you?<br>
+*Introduction to the class*: syllabus, what is this class about? why are we here? is this a class for you?
+
+<br>
+['Not a Math Person': How to Remove Obstacles to Learning Math](https://ww2.kqed.org/mindshift/2015/11/30/not-a-math-person-how-to-remove-obstacles-to-learning-math/) 
+by Katrina Schwartz 
+
 
 </p>
 </div>
