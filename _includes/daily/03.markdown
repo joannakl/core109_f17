@@ -17,6 +17,8 @@ Mon, Sep 11
 <div class="column_materials" >
 <p markdown="block">
 
+* Python tools: [slides]({{ site.url }}/slides/week1/python-pythonanywhere-conopy.html) 
+* starting with Python: [slides]({{ site.url }}/slides/week1/starting-with-python.html) 
 
 
 </p>
