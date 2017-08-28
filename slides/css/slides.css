@@ -1,0 +1,70 @@
+
+
+@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+@import url(https://fonts.googleapis.com/css?family=Droid+Sans:400,700,400italic);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+body { 
+    font-family: 'Droid Sans'; 
+    margin:0;
+    padding:0;
+}
+h1, h2, h3 {
+    font-family: 'Oswald';
+    font-weight: normal;
+    padding:0;
+    margin:0;
+}
+
+
+.footnote {
+    position: absolute;
+    bottom: 3em;
+}
+
+.remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+
+.small { font-size: 70%; }
+.big { font-size: 140%; }
+.code{font-family: 'Ubuntu Mono'; }
+.center { text-align: center; }
+.center70 {
+    text-align:center;
+    width: 70%;
+}
+.highlight{ 
+    background-color: #FECA3F;
+}
+
+
+.section {
+    background-color: #CABFDC;
+    padding: 5em; 
+}
+
+/* code output formatting */
+.output {
+  margin: 1px;
+  padding: 0 0 0 0.5em;
+  /*border-style: solid; border-color: #AAA; border-width:1px;*/
+  background-color: #CCC;
+}
+
+
+/* Two-column layout */
+.left-column2 {
+width: 44%;
+float: left;
+padding:1% 5% 1% 1%;
+}
+
+.right-column2 {
+width: 44%;
+float: right;
+padding:1% 1% 1% 5%;
+}
+
+.below-column2 {
+  clear: both;
+}
