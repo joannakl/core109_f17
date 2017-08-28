@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>(Programming) Languages, Python(3), PythonAnywhere, Canopy</title>
+    <title>Starting with Python</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <link href="../css/slides.css" rel="stylesheet" type="text/css" />
 
@@ -13,7 +13,7 @@ class: center, middle
 
 # Starting with Python
 
-.footnote[
+.author[
 CORE-UA 109.01, Joanna Klukowska <br>
 adapted from slides for CSCI-UA.002 by D. Engle, C. Kapp and J. Versoza
 ] 
@@ -213,7 +213,7 @@ class: center, middle
 * The '=' symbol is called the __assignment operator__ and will cause Python to store the data on the right side of the statement into the variable name printed on the left side. 
 
 .center[
-<img src=../img/variable.png width=50% >
+<img src=img/variable.png width=50% >
 ]
 
 ---
@@ -262,6 +262,23 @@ product_of_nums = num1 * num2
     * if the value is stored in a variable, we only need to change one line of code; if not, we 
     have to search for all different locations of 57 and replace them with 58 
 
+
+---
+
+# Variable naming rules 
+
+* You can't use one of Python's __reserved words__ 
+    
+    `False`, `None`, `True`, `and`, `as`, `assert`, `break`, `class`, 
+    `continue`, `def`, `del`, `elif`, `else`, `except`, `finally`, `for`, `from`, 
+    `global`, `if`, `import`, `in`, `is`, `lambda`, `nonlocal`, `not`, `or`, 
+    `pass`, `raise`, `return`, `try`, `while`, `with`, `yield`
+
+* Variables can't contain spaces (though you can use the underscore character ("_") in place of a space)
+
+* The first character of a variable name must be a letter or the underscore character.  Any character after the first can be any valid alphanumeric character (or the underscore character)
+
+* Python is case sensitive, so `num` and `Num` are two different variable names 
 
 ---
 
@@ -513,6 +530,25 @@ class: center, middle
 # summary
 ]
 
+---
+#string - summary 
+
+* Data that is textual in nature (i.e. "Hello, World!") is called a "String"
+
+* Strings can contain 0 or more printed characters
+
+* __String Literals__ are strings that you define inside your program. They are "hard coded" values and must be __delimited__ using a special character so that Python knows that the text you've typed in should be treated as printed text (and not a function call, variable name, etc.)<br>
+    Ex:  `print ('hello, world!')`
+    
+* Python supports three different delimiters
+
+    * The single quote/"tick" ( `'` )
+
+    * The single quote ( `"` )
+
+    * The triple quote ( `"""` )
+
+
 
 ---
 
@@ -537,9 +573,96 @@ class: center, middle
 
 * When you ask Python to run a function we say that you have __called the function__.
 
+---
+# variables - summary 
 
+* Variables are like little "buckets" that can store information in your computer's memory
 
+* You will be using variables constantly when writing your programs in order to keep track of various pieces of information
 
+* You can create a variable by using the following syntax:
+    
+    __`variablename = somedata`__
+    
+    Examples:
+
+    `speed = 5`
+    
+    `myname = 'Craig'`
+    
+* The __`=`__ symbol is called the __assignment operator__ and will cause Python to store the data on the right side of the statement into the variable name printed on the left side
+
+---
+
+class: center, middle
+
+.section[
+# programming challenges
+]
+
+---
+# Mini-calculator
+
+.left-column2[
+* Ask the user for two numbers.  You can assume they will be floating point numbers.
+* Compute the following and print it out to the user:
+
+    * The sum of the numbers
+    * The product of the numbers
+    * The difference between the numbers
+    * The first number divided by the second number
+    * The first number raised to the power of the second number
+* Display the mathematical expression and the result, for example, if the user enters
+35 and 7, the first line of output for your program should be
+ 
+    `  35 + 7 = 42`
+]
+
+.right-column2[
+.center[
+<img src=img/arithmetic.png width=90% >
+]
+]
+
+---
+# Subway ride caldulator
+
+.left-column2[
+
+* Write a program that asks the user for the value of their current Metro card
+
+* Compute how many rides they have left on their card.  Only provide whole number results (i.e. you cannot have 3.5 rides left on a card)
+
+Hints:
+* A single ride costs $2.75 these days. 
+* Conversion functions will be useful here. Remember that 
+    * `float("25.75")` function will return the numberic value of `25.75`,
+    * `int(3.5)` will return the integer part of its argument, i.e., `3`.  
+
+]
+
+.right-column2[
+.center[
+<img src=img/metro.jpg width=70% >
+]
+]
+
+---
+# Coins
+
+* Write a program that asks the user for a number of pennies, nickels, 
+dimes and quarters
+
+* Calculate the total amount of money that the user has and print it out
+
+For this program, you can assume that the user will always enter a valid 
+answer (i.e. non-negative integer). 
+<br>
+
+.center[
+<br>
+<img src=img/coins.jpg width=50% >
+]
 
     </textarea>
     <script src="../js/remark.js" type="text/javascript">

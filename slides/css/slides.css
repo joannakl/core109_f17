@@ -1,29 +1,36 @@
 
 
-@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
-@import url(https://fonts.googleapis.com/css?family=Oswald);
-@import url(https://fonts.googleapis.com/css?family=Droid+Sans:400,700,400italic);
+@import url('https://fonts.googleapis.com/css?family=Droid+Sans');
 @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
 
 body { 
-    font-family: 'Droid Sans'; 
+    font-family: 'Droid Sans', sans-serif;
     margin:0;
     padding:0;
 }
 h1, h2, h3 {
-    font-family: 'Oswald';
-    font-weight: normal;
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: bold;
     padding:0;
     margin:0;
 }
 
+.remark-slide-content > h1:first-of-type {
+  margin-top: 0.5ex;
+}
 
-.footnote {
-    position: absolute;
+.author {
+    /*position: absolute;*/
     bottom: 3em;
 }
 
 .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+
+/*remove extra space from top of the slide*/
+.remark-slide-content {
+  padding-top: 0;
+}
+
 
 .small { font-size: 70%; }
 .big { font-size: 140%; }
