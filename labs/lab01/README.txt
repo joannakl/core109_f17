@@ -6,7 +6,7 @@ will be learning this semester. You do not need to install any software to compl
 this lab assignment. You need a computer with Internet access (either your personal
 computer or any NYU public lab computer).
 
-To get started, go back to the Lab01 folder and start with problem1.py file.
+You should start with problem1.py file.
 Follow the instructions in that file to complete the first exercise. Once done,
 continue with the remaining problems in order.
 

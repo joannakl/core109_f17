@@ -18,16 +18,44 @@ Thu, Sep 7
 
 **Starting with Python (due Sept. 13 at 11:55pm)**
 
-Note: *if you joined the class late, follow the steps to create your account
-on `PythonAnywhere` (see the assignments for class #1) and then contact Joanna
-to get the first lab assignment (do not wait for the actual class meeting, just 
-send an email).* 
+Note: *if you joined the class late or if you did not , follow the steps to create your account on `PythonAnywhere` (see the assignments for class #1).* 
 
-- Login to your `PythonAnywhere` account. 
+---
+
+The exercises that you complete in this lab will give you a taste of programming.
+You will read and write programs in Python - the programming language that we
+will be learning this semester. You do not need to install any software to complete
+this lab assignment. You need a computer with Internet access (either your personal
+computer or any NYU public lab computer).
+
+
+- Login to your `PythonAnywhere` account (use a separate tab in the browser so
+that you can switch back and forth between this page and the `PythonAnywhere` 
+page). 
+- Switch to the `Files` tab and under `Directories` create a new directory
+called `lab01`. This creates a new directory and switches to that directory. 
+- Under the `Files` create a new file called `problem1.py`. This creates a new
+file and brings you to the code editor. 
+- Use the `problem1.py` link below. Copy the entire text of the problem and paste it
+in the editor on `PythonAnywhere`. Complete the tasks in problem 1 and answer the
+questions. 
+- Repeat the last step for all five problems. 
+
+
+__Problems for this lab:__
+- [problem1.py](labs/lab01/problem01.py)
+- [problem2.py](labs/lab01/problem02.py)
+- [problem3.py](labs/lab01/problem03.py)
+- [problem4.py](labs/lab01/problem04.py)
+- [problem5.txt](labs/lab01/problem05.txt)
+
+
+<!--
+
 - Complete the problems listed there in `lab01` folder. The final versions
 (i.e., the ones that will be graded) should be there no later than the due date of
 Sept. 13 at 11:55pm. 
-
+-->
 
 
 </p>
