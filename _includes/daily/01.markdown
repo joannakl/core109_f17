@@ -51,8 +51,9 @@ enter the username of your teacher: **joannakl**
 
 **2. Study [module 1]({{ site.modules }}/module01.php) (due Sept. 11 before the class)**
 
-* If you wish to learn how to install a Python development environment on your own computer, start at the beginning. 
 * Otherwise, start at the section titled *Functions & Function Calls* and use `PythonAnywhere` instead of IDLE. 
+* (We will use a different IDE than IDLE. You'll get a chance to install it
+on your own computer next week.) 
 
 **3. Complete the quiz for module 1 on NYU Classes (due Sept. 11 before the class)**           
 
