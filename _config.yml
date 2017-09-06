@@ -28,16 +28,16 @@ recitation_instructor_full: "Scott Floam"
 recitation_instructor_name: "Scott" 
 
 
-instructor_office_hours: "TBD" 
-instructor_office_hours_location: "423 WWH" 
-recitation_office_hours: "TBD" 
-recitation_office_hours_location: "TBD" 
+instructor_office_hours: "Mon 11:30-1:00pm, Thu 1:30-3:00pm and before and after class" 
+instructor_office_hours_location: "423 CIWW" 
+recitation_office_hours: "Mon 1:30-2:30pm, Tue 10:00-11:00am" 
+recitation_office_hours_location: "412 CIWW" 
 
 tutor_location: "TBD"
-tutor_schedule_link: "http://cs.nyu.edu/~joannakl/cs102_s17/common/#tutoring"
+tutor_schedule_link: " "
 
-midterm_exam_date: "TBD"
-final_exam_date: "Dec. 18, 8:00 - 9:50 AM"
+midterm_exam_date: "Exam 1: Oct. 12, <br>Exam 2: Nov. 9"
+final_exam_date: "__Dec. 18, 8:00 - 9:50 AM__"
 final_exams_link: "http://cs.nyu.edu/dynamic/courses/exams/"
 
 piazza_site: 
