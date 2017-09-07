@@ -38,13 +38,13 @@ called `lab01`. This creates a new directory and switches to that directory.
 file and brings you to the code editor. 
 - Use the `problem1.py` link below. Copy the entire text of the problem and paste it
 in the editor on `PythonAnywhere`. Complete the tasks in problem 1 and answer the
-questions. 
+questions. Once finished, run `exit()` in the 
 - Repeat the last step for all five problems. 
 
 
 __Problems for this lab:__
-- [problem1.py]({{ site.url }}/labs/lab01/problem1.py)
-- [problem2.py]({{ site.url }}/labs/lab01/problem2.py)
+- [problem1.py](labs/lab01/problem1.py)
+- [problem2.py](labs/lab01/problem2.py)
 - [problem3.py]({{ site.url }}/labs/lab01/problem3.py)
 - [problem4.py]({{ site.url }}/labs/lab01/problem4.py)
 - [problem5.txt]({{ site.url }}/labs/lab01/problem5.txt)
@@ -56,8 +56,11 @@ __Problems for this lab:__
 (i.e., the ones that will be graded) should be there no later than the due date of
 Sept. 13 at 11:55pm. 
 -->
+--- 
 
+__Submitting your work:__
 
+Once you are done with all the problems, you will need to first download them
 </p>
 </div>
 
