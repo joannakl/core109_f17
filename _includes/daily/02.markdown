@@ -43,11 +43,11 @@ questions.
 
 
 __Problems for this lab:__
-- [problem1.py](labs/lab01/problem01.py)
-- [problem2.py](labs/lab01/problem02.py)
-- [problem3.py](labs/lab01/problem03.py)
-- [problem4.py](labs/lab01/problem04.py)
-- [problem5.txt](labs/lab01/problem05.txt)
+- [problem1.py]({{ site.url }}/labs/lab01/problem1.py)
+- [problem2.py]({{ site.url }}/labs/lab01/problem2.py)
+- [problem3.py]({{ site.url }}/labs/lab01/problem3.py)
+- [problem4.py]({{ site.url }}/labs/lab01/problem4.py)
+- [problem5.txt]({{ site.url }}/labs/lab01/problem5.txt)
 
 
 <!--
