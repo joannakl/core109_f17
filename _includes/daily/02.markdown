@@ -38,7 +38,8 @@ called `lab01`. This creates a new directory and switches to that directory.
 file and brings you to the code editor. 
 - Use the `problem1.py` link below. Copy the entire text of the problem and paste it
 in the editor on `PythonAnywhere`. Complete the tasks in problem 1 and answer the
-questions. Once finished, run `exit()` in the 
+questions. Once finished, make sure you save your changes and then
+run `exit()` in the console below the code editor (the area on the black background).  
 - Repeat the last step for all five problems. 
 
 
@@ -60,7 +61,12 @@ Sept. 13 at 11:55pm.
 
 __Submitting your work:__
 
-Once you are done with all the problems, you will need to first download them
+Once you are done with all the problems, you will need to first download them 
+to your own computer and then upload them to NYU Classes. 
+Next to each file in the lab01 directory, there is a `download` icon (an
+arrow pointing down). When you have all the files on your own computer, you
+can upload them to NYU Classes. Use _Lab01_ link under the _Assignments_ link. 
+
 </p>
 </div>
 
