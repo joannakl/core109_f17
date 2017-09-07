@@ -44,8 +44,8 @@ run `exit()` in the console below the code editor (the area on the black backgro
 
 
 __Problems for this lab:__
-- [problem1.py]({{ site.labs_url }}labs/lab01/problem1.py)
-- [problem2.py]({{ site.labs_url }}labs/lab01/problem2.py)
+- [problem1.py]({{ site.labs_url }}/labs/lab01/problem1.py)
+- [problem2.py]({{ site.labs_url }}/labs/lab01/problem2.py)
 - [problem3.py]({{ site.labs_url }}/labs/lab01/problem3.py)
 - [problem4.py]({{ site.labs_url }}/labs/lab01/problem4.py)
 - [problem5.txt]({{ site.labs_url }}/labs/lab01/problem5.txt)
