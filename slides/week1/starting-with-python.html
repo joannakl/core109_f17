@@ -314,6 +314,7 @@ user what it is that the program wants
 
 
 * the value returned by the `input()` function can be saved in __a variable__: `name` and `num_of_programs_written` in the example above 
+
 * this is another reason why we use variables - they store the values returned by functions 
 
 
@@ -323,7 +324,7 @@ user what it is that the program wants
 
 Challenge: 
 ```python
-fav_num = input("What is your favority number?")
+fav_num = input("What is your favority number? ")
 
 print("Cool, I like ", fav_num, " as well.")
 print("I also like twice that value:", 2 * fav_num) 
@@ -340,7 +341,8 @@ What is your favority number? 7
 Cool, I like  7  as well.
 I also like twice that value: 77
 Traceback (most recent call last):
-  File "python", line 6, in <module>
+  File "/home/joannakl/week1/favorite_number.py", line 5, in <module>
+    print("and I really like one more than that number:", 1 + fav_num)
 TypeError: unsupported operand type(s) for +: 'int' and 'str'
 ```
 ]
@@ -440,7 +442,7 @@ Examples:
 ```python
 n1 = int("45")          # returns a number 45
 n2 = int(-78.990)       # returns a number -78
-#n3 = int("thirteen")   # causes an error 
+n3 = int("thirteen")    # causes an error !!!
 
 f1 = float("-56.90876") # returns a floating point number -56.90876
 f2 = float( 39 )        # returns a floating point number 39.0 
@@ -544,7 +546,7 @@ class: center, middle
 
     * The single quote/"tick" ( `'` )
 
-    * The single quote ( `"` )
+    * The double quote ( `"` )
 
     * The triple quote ( `"""` )
 
@@ -559,10 +561,10 @@ class: center, middle
 * Python comes with a number of __built-in functions__, and you can also write your own (more on that later in the semester) 
 
 * Functions always begin with a keyword (the __name of the function__) followed by a pair of parenthesis.
-    Ex:  `print ()`, `input()`
+    Ex:  `print()`, `input()`
     
 * You can __pass one or more arguments__ into a function by placing data inside the parenthesis
-    Ex:  `print ('Hello, World!')`
+    Ex:  `print('Hello, World!')`
     
     * Different functions "expect" different arguments.  The print function, for example, expects printed text as an argument
     

@@ -51,11 +51,11 @@ enter the username of your teacher: **joannakl**
 
 **2. Study [module 1]({{ site.modules }}/module01.php) (due Sept. 11 before the class)**
 
-* Otherwise, start at the section titled *Functions & Function Calls* and use `PythonAnywhere` instead of IDLE. 
+* Start at the section titled *Functions & Function Calls* and use `PythonAnywhere` instead of IDLE. 
 * (We will use a different IDE than IDLE. You'll get a chance to install it
 on your own computer next week.) 
 
-**3. Complete the quiz for module 1 on NYU Classes (due Sept. 11 before the class)**           
+**3. Complete the quiz 1 for module 1 on NYU Classes (due Sept. 11 before the class)**           
 
 
 </p>
