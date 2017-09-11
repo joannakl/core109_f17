@@ -6,8 +6,8 @@
 <div class="column_date">
 <p markdown="block">
 
-Class # 2 <br> 
-Mon, Sep 11 
+Class # 3 <br> 
+Wed, Sep 13
 
 </p>
 </div>
@@ -17,11 +17,12 @@ Mon, Sep 11
 <div class="column_materials" >
 <p markdown="block">
 
+<!--
 * Python tools: [slides]({{ site.url }}/slides/week1/python-pythonanywhere-conopy.html),
   [for printing]({{site.url}}/slides/week1/python-pythonanywhere-conopy.pdf) (4 slides per page)
 * starting with Python: [slides]({{ site.url }}/slides/week1/starting-with-python.html),
   [for printing]({{ site.url }}/slides/week1/starting-with-python.pdf)  
-
+-->
 
 
 </p>
@@ -32,11 +33,9 @@ Mon, Sep 11
 <div class="column_assign">
 <p markdown="block">
 
-* Download and install Canopy. Detailed instructions [here](https://joannakl.github.io/thisandthat/CanopyInstallation.html).
-
-* Study [module 2]({{ site.modules }}/module02.php) (due Sept. 14 before the lab session)   
+* Study [module 3]({{ site.modules }}/module03.php) (due Sept. 18 before the lab session)   
     
-* Complete the quiz 2 for module 2 on NYU Classes (due Sept. 14 before the lab session)
+* Complete the quiz 3 for module 3 on NYU Classes (due Sept. 18 before the lab session)
 
 </p>
 </div>
