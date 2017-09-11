@@ -17,13 +17,9 @@ Wed, Sep 13
 <div class="column_materials" >
 <p markdown="block">
 
-<!--
-* Python tools: [slides]({{ site.url }}/slides/week1/python-pythonanywhere-conopy.html),
-  [for printing]({{site.url}}/slides/week1/python-pythonanywhere-conopy.pdf) (4 slides per page)
-* starting with Python: [slides]({{ site.url }}/slides/week1/starting-with-python.html),
-  [for printing]({{ site.url }}/slides/week1/starting-with-python.pdf)  
--->
 
+* continue with starting with Python (from _variables_) : [slides]({{ site.url }}/slides/week1/starting-with-python.html),
+  [for printing]({{ site.url }}/slides/week1/starting-with-python.pdf)  
 
 </p>
 </div>
@@ -33,9 +29,9 @@ Wed, Sep 13
 <div class="column_assign">
 <p markdown="block">
 
-* Study [module 3]({{ site.modules }}/module03.php) (due Sept. 18 before the lab session)   
+* Study [module 3]({{ site.modules }}/module03.php) (due Sept. 18 before the lecture)   
     
-* Complete the quiz 3 for module 3 on NYU Classes (due Sept. 18 before the lab session)
+* Complete the quiz 3 for module 3 on NYU Classes (due Sept. 18 before the lecture)
 
 </p>
 </div>
