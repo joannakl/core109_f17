@@ -5,7 +5,7 @@ description: "Course website for CORE-UA 109 (Quantitative Reasoning) course."
 baseurl: "/core109_f17" # the subpath of your site, e.g. /blog
 url: "https://joannakl.github.io/core109_f17" # the base hostname & protocol for your site, e.g. http://example.com
 
-labs_url: "http://cs.nyu.edu/~joannakl/core109.01_f17"
+labs_url: "https://raw.githubusercontent.com/joannakl/core109_f17/gh-pages/"
 
 markdown: kramdown
 kramdown:

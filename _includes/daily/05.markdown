@@ -41,10 +41,10 @@ Canopy to solve the problems in this lab.
 - If you need help installing or running Canopy, 
 speak to one of the instructors during the lab. 
 - Complete the following problems (the instructions are in each of the problems): 
-    - [problem1.py](labs/lab02/problem1.py)
-    - [problem2.py](labs/lab02/problem2.py)
-    - [problem3.py](labs/lab02/problem3.py)
-    - [problem4.py](labs/lab02/problem4.py)
+    - [problem1.py]({{ site.labs_url }}/labs/lab02/problem1.py)
+    - [problem2.py]({{ site.labs_url }}/labs/lab02/problem2.py)
+    - [problem3.py]({{ site.labs_url }}/labs/lab02/problem3.py)
+    - [problem4.py]({{ site.labs_url }}/labs/lab02/problem4.py)
 
 
 --- 
