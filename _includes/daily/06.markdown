@@ -1,0 +1,41 @@
+
+<div class="lecture1">
+
+
+
+<div class="column_date">
+<p markdown="block">
+
+Class # 4 <br> 
+Mon, Sep 18
+
+</p>
+</div>
+
+
+
+<div class="column_materials" >
+<p markdown="block">
+
+* more on basic Python: [slides]({{ site.url }}/slides/week2/more-basi-python.html),
+ <!-- [for printing]({{ site.url }}/slides/week2/more-basic-python.pdf)  -->
+
+
+
+</p>
+</div>
+
+
+
+<div class="column_assign">
+<p markdown="block">
+
+
+* Study [module 4]({{ site.modules }}/module04.php) and [module 5]({{ site.modules }}/module05.php) (due Sept. 25 before the lecture)   
+    
+* Complete the quiz 4 for module 4 and quiz 5 for module 5 on NYU Classes (due Sept. 25 before the lecture)
+
+</p>
+</div>
+
+</div>

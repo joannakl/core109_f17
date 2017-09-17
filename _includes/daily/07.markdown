@@ -1,0 +1,37 @@
+
+<div class="lecture2">
+
+
+
+<div class="column_date">
+<p markdown="block">
+
+Class # 5 <br> 
+Wed, Sep 20
+
+</p>
+</div>
+
+
+
+<div class="column_materials" >
+<p markdown="block">
+
+
+* conditional execution : [slides]({{ site.url }}/slides/week2/conditional-execution.html),
+  [for printing]({{ site.url }}/slides/week2/conditional-execution.pdf)  
+
+</p>
+</div>
+
+
+
+<div class="column_assign">
+<p markdown="block">
+
+* keep working on modules 4 and 5 and the corresponding quizzes 
+
+</p>
+</div>
+
+</div>
