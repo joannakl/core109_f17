@@ -18,7 +18,10 @@ Mon, Sep 18
 <p markdown="block">
 
 * more on basic Python: [slides]({{ site.url }}/slides/week2/more-basic-python.html),
- <!-- [for printing]({{ site.url }}/slides/week2/more-basic-python.pdf)  -->
+ [for printing]({{ site.url }}/slides/week2/more-basic-python.pdf)  
+ 
+* [code mangler exercise]({{ site.url }}/slides/week2/week2_code_mangler.pdf): rearrange 
+the lines of code and comments so that they form a proper Python program 
 
 
 
