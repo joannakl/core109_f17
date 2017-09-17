@@ -17,7 +17,7 @@ Mon, Sep 18
 <div class="column_materials" >
 <p markdown="block">
 
-* more on basic Python: [slides]({{ site.url }}/slides/week2/more-basi-python.html),
+* more on basic Python: [slides]({{ site.url }}/slides/week2/more-basic-python.html),
  <!-- [for printing]({{ site.url }}/slides/week2/more-basic-python.pdf)  -->
 
 
