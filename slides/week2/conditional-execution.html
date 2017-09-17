@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Conditional Execution </title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+    <link href="../css/slides.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+
+class: center, middle
+
+# Conditional Execution
+
+.author[
+CORE-UA 109.01, Joanna Klukowska <br>
+adapted from slides for CSCI-UA.002 by D. Engle, C. Kapp and J. Versoza
+] 
+
+---
+
+# let's start with an example 
+
+```python
+
+name = input("Hello! What is your name? ")
+
+num_of_languages = input("How many programming languages do you know? ")
+
+num_of_languages = int( num_of_languages )
+
+if  num_of_languages == 0 :
+    print (name + ", you are about to learn your first programming language!")
+else:
+    print (name + ", I think you are in a wrong class! Talk to Joanna about this.")
+
+
+```
+--
+
+- Do think that all of the lines of code  are executed by the computer
+when we run the program? Explain your answer.
+
+--
+
+- Notice that the `print` instructions after the `if ...` and `else ...` lines
+are indented. What happens when you try to remove the indent?
+
+---
+
+class: center, middle
+
+.section[
+# `if ... elif ... else` statement 
+]
+
+---
+# if something is true, do this 
+.box[
+```python
+if some_condition_to_check : 
+    code to execute
+    when the condition turns out
+    to be true
+
+continue_with_the_rest_of_the_code 
+```
+]
+
+- the `if` statement allows us to tell Python to execute the code only is some condition turns out to be true
+
+- __example__
+
+    ``` python
+    today = input("what day is today" )
+    
+    if today == "Thursday":
+        print("Go to lab at Tisch L19")
+    
+    print("Have a nice day!")
+    
+    ```
+
+
+---
+# this or that 
+.box[
+```python
+if some_condition_to_check : 
+    code to execute when the condition 
+    turns out to be true
+else:
+    code to execute when the condition
+    turns out to be false 
+    
+continue_with_the_rest_of_the_code 
+```
+]
+
+- the `if ... else ...` statement allows us to tell Python to execute one block of if some condition turns out to be true and a different one
+if that condition turns out to be false 
+
+- __example__
+
+    ``` python
+    today = input("what day is today" )
+    
+    if today == "Thursday":
+        print("Go to the lab at Tisch, room LC19")
+    else:
+        print("Go to the lecture at 7 East 12th Street, room 125") 
+    
+    print("Have a nice day!")
+    
+    ```
+
+---
+# this or that or that ... or ...
+.box[
+```python
+if condition_1_to_check : 
+    code to execute when the condition_1 is true 
+elif condition_2_to_check :
+    code to execute when the condition_2 is true 
+elif ...
+    ...
+else:
+    code to execute when all of the conditions turn out to be false 
+    
+continue_with_the_rest_of_the_code 
+```
+]
+
+- the `if ... elif ... else ...` statement allows us to tell Python to execute a different block of code depending of a collection of different conditions. 
+
+- __example__
+    ``` python
+    today = input("what day is today" )
+    
+    if today == "Thursday":
+        print("Go to the lab at Tisch, room LC19")
+    elif today == "Monday" or today == "Wednesday" :
+        print("Go to the lecture at 7 East 12th Street, room 125") 
+    else:
+        print("We do not have a class today")
+    print("Have a nice day!")
+    
+    ```
+
+---
+
+class: center, middle
+
+.section[
+# Boolean expresssions 
+## (or what can be used as a condition)  
+]
+
+---
+
+# Boolean values 
+
+- Boolean values can be either true or false - yes, there are only two 
+possible values
+
+- in Python, these values are represented by the reserved words, `True`
+ and `False` (notice that the initial letter is uppercase)
+ 
+- comparison evaluate to either a Boolean value, for example
+    - `10 < 15` evaluates to `True`
+    - `"Asia" > "Europe" evaluates to `False`
+    - `(12 + 3) == 15` evaluates to `True` 
+ 
+---
+
+# `=` versous `==`
+
+- `=` (equals) is the __assignment operator__
+    - assigns the value of the thing on the right to the variable on the left
+    - sometimes called binding
+    - example: `a = "foo"` gives value of string `"foo"` to the variable
+    `a` 
+    
+
+- `==` (double equals) is the __comparison equality operator__
+    - tests if the thing on the left is equal to the thing on the right
+    - also called logical equivalence
+    - example: `"foo" == "bar"` evaluates to `False`  
+
+--
+
+Warning: Python is case sensitive and it does not like to mix numbers and strings. 
+
+__exercise__ Try to figure out the value of the following comparisons.
+
+.left-column2[
+`'One' == 'one'`
+
+`'1.0' == 1.0`
+
+`'one' == 1`
+
+`1 == 1.0`
+
+`"one" == 'one'`
+
+]
+--
+.right-column2[
+`False`
+
+`False`
+
+`False`
+
+`True`
+
+`True`
+
+]
+
+---
+
+# dozens of doughnuts <img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Noto_Emoji_Oreo_1f369.svg"  width=70px>  <img src="https://upload.wikimedia.org/wikipedia/commons/7/7d/Emojione_1F369.svg"width=70px>
+
+What is the output of this program when the user enters different values in response to the prompt?
+
+```python
+answer = input("you have 12 doughnuts, would you like another dozen? \n")
+
+if answer == 'yes':
+	print('you have 24 doughnuts')
+else:
+	print('you have 12 doughnuts')
+```
+
+_program user exchange:_
+
+```
+you have 12 doughnuts, would you like another dozen? 
+*yes
+```
+--
+```
+you have 24 doughnuts
+```
+--
+----- 
+```
+you have 12 doughnuts, would you like another dozen? 
+*no
+```
+--
+```
+you have 12 doughnuts
+```
+
+---
+
+# dozens of doughnuts <img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Noto_Emoji_Oreo_1f369.svg"  width=70px>  <img src="https://upload.wikimedia.org/wikipedia/commons/7/7d/Emojione_1F369.svg"width=70px>
+
+What is the output of this program when the user enters different values in response to the prompt?
+
+```python
+answer = input("you have 12 doughnuts, would you like another dozen? \n")
+
+if answer == 'yes':
+	print('you have 24 doughnuts')
+else:
+	print('you have 12 doughnuts')
+```
+
+_program user exchange:_
+
+```
+you have 12 doughnuts, would you like another dozen? 
+*Yes
+```
+--
+```
+you have 12 doughnuts
+```
+--
+----- 
+```
+you have 12 doughnuts, would you like another dozen? 
+*give me two dozens, please
+```
+--
+```
+you have 12 doughnuts
+```
+
+
+---
+
+# math quiz: exponents
+
+What is the output of this program when the user enters the correct answer? 
+
+```python
+answer = input('what is 2 to the 4th power?\n')
+
+if answer == 2 ** 4:
+	print('yup, you got it!')
+else:
+	print('sorry, you got that wrong')
+```
+
+--
+
+- this program has a logical error:
+
+- it always compares a string (containing the correct or incorrect
+answer) to a number 
+
+- the Boolean expression (`answer == 2 ** 4`) __always__ evaluates
+to `False`
+
+- the output of this program is always: 
+
+    `   sorry, you got that wrong`
+
+
+---
+
+class: center, middle
+
+.section[
+# programming challenges
+]
+
+---
+
+
+    </textarea>
+     <script src="../js/remark.js" type="text/javascript">
+    </script>
+    <script src="../js/remark_conf.js" type="text/javascript">
+    </script>
+    
+  </body>
+</html>
