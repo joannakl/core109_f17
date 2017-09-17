@@ -20,6 +20,8 @@ Wed, Sep 20
 
 * conditional execution : [slides]({{ site.url }}/slides/week2/conditional-execution.html),
   [for printing]({{ site.url }}/slides/week2/conditional-execution.pdf)  
+* [code mangler exercise]({{ site.url }}/slides/week2/week2_code_mangler.pdf): rearrange 
+the lines of code and comments so that they form a proper Python program 
 
 </p>
 </div>
