@@ -345,6 +345,103 @@ to `False`
 class: center, middle
 
 .section[
+# comparison operators and logical operators
+]
+---
+# comparison operators
+
+- there are six comparison operators:<br>
+
+    - `==`  equals (can be called logical equivalence or equality operator)
+    
+    - `!=`  not equal
+    
+    - `>`  greater than
+    
+    - `<`  less than
+    
+    - `>=` greater than / equal
+    
+    - `<=`  less than / equal
+
+- those operators always return a Boolean value: `True` or `False`
+
+- they work with numbers, 
+
+- they also work with strings,
+
+---
+# comparison examples 
+
+- `5.5 < 13` returns `True`
+
+- `78 != n` returns either `True` or `False` depending on the value of `n` 
+(assuming `n` has a value)
+
+
+- `"apple" < "pear"` returns `True` - the order is based on the
+alphabetical ordering of characters,
+    - well, not really
+    - it actually uses [ASCII](http://www.asciitable.com/) ordering 
+    
+- `"Apple" == "apple"` returns `False` - the upper case letters
+come _before_ the lower case letters in ASCII 
+
+---
+
+# logical operators 
+
+- `and` - takes two operands, one on each side
+to return `True`, both sides of the operator must be `True`
+
+- `or`  - takes two operands, one on each side
+to return `True`, at least one side of the operator must be `True` 
+
+- `not` - only takes one operand to the right
+to return `True`, the original value on the right must evaluate to `False` 
+two nots cancel eachother out (fun!) 
+
+---
+
+# truth tables
+
+- the truth table tells us the value of the logical expression
+given all different posibilities of the operands
+
+
+
+```
+ p | q | p and q
+----------------
+ f | f |   f
+ f | t |   f
+ t | f |   f
+ t | t |   t
+```
+---  
+
+```
+ p | q | p and q
+----------------
+ f | f |   f
+ f | t |   t
+ t | f |   t
+ t | t |   t
+```
+---  
+
+```
+ p | not p
+-----------
+ t |  f 
+ f |  t 
+```
+
+---
+
+class: center, middle
+
+.section[
 # programming challenges
 ]
 
@@ -391,7 +488,7 @@ the following:
 ]
 .right-column2[
 .center[
-<img src="https://cdn.pixabay.com/photo/2016/03/16/09/11/bonus-1260057_960_720.png"
+<img src="https://upload.wikimedia.org/wikipedia/commons/4/4d/Dollar_symbol_gold.svg"
 width=200px>
 ]
 ]
