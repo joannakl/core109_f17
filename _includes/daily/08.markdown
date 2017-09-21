@@ -26,8 +26,8 @@ time in a long run!
 __Part 1: paper worksheet__
 - Answer questions on a worksheet distributed by your instructor.
 - You should work in groups of 2-3 students. 
-- You can use an online calculator (just type the calculation as a google search) if you wish. 
-- Hand in the completed worksheet before the end of the session. 
+- Hand in the completed worksheet before the end of the session 
+(__you should hand in ONE worksheet per group__). 
 - (You will get credit for this part of the lab only if you attended the recitation session.)
 
 __Part 2: programming problems__ 
@@ -38,13 +38,13 @@ that you can switch back and forth between this page and the `PythonAnywhere`
 page). 
 - If you are using your own computer, you can either use `PythonAnywhere` or 
 Canopy to solve the problems in this lab. 
-- If you need help installing or running Canopy, 
-speak to one of the instructors during the lab. 
+
 - Complete the following problems (the instructions are in each of the problems): 
     - [problem1.py]({{ site.labs_url }}/labs/lab02/problem1.py)
     - [problem2.py]({{ site.labs_url }}/labs/lab02/problem2.py)
     - [problem3.py]({{ site.labs_url }}/labs/lab02/problem3.py)
     - [problem4.py]({{ site.labs_url }}/labs/lab02/problem4.py)
+    - [problem5.py]({{ site.labs_url }}/labs/lab02/problem5.py)
 
 
 --- 
@@ -52,7 +52,7 @@ speak to one of the instructors during the lab.
 __Submitting your work:__
 
 Once you are done with all the problems, you will need to upload them to 
-NYU Classes. Use _Lab02_ link under the _Assignments_ link. 
+NYU Classes. Use _Lab03_ link under the _Assignments_ link. 
 
 </p>
 </div>
