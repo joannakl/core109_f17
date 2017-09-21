@@ -40,11 +40,11 @@ page).
 Canopy to solve the problems in this lab. 
 
 - Complete the following problems (the instructions are in each of the problems): 
-    - [problem1.py]({{ site.labs_url }}/labs/lab02/problem1.py)
-    - [problem2.py]({{ site.labs_url }}/labs/lab02/problem2.py)
-    - [problem3.py]({{ site.labs_url }}/labs/lab02/problem3.py)
-    - [problem4.py]({{ site.labs_url }}/labs/lab02/problem4.py)
-    - [problem5.py]({{ site.labs_url }}/labs/lab02/problem5.py)
+    - [problem1.py]({{ site.labs_url }}/labs/lab03/problem1.py)
+    - [problem2.py]({{ site.labs_url }}/labs/lab03/problem2.py)
+    - [problem3.py]({{ site.labs_url }}/labs/lab03/problem3.py)
+    - [problem4.py]({{ site.labs_url }}/labs/lab03/problem4.py)
+    - [problem5.py]({{ site.labs_url }}/labs/lab03/problem5.py)
 
 
 --- 
