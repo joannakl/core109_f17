@@ -1,0 +1,45 @@
+
+<div class="lecture1">
+
+
+
+<div class="column_date">
+<p markdown="block">
+
+Class # 4 <br> 
+Mon, Sep 25
+
+</p>
+</div>
+
+
+
+<div class="column_materials" >
+<p markdown="block">
+
+* repeating things in Python: [slides]({{ site.url }}/slides/week3/for-loops.html),
+ [for printing]({{ site.url }}/slides/week3/for-loops.pdf)  
+
+<!-- 
+* [code mangler exercise]({{ site.url }}/slides/week2/week2_code_mangler.pdf): rearrange 
+the lines of code and comments so that they form a proper Python program 
+-->
+
+
+</p>
+</div>
+
+
+
+<div class="column_assign">
+<p markdown="block">
+
+
+* Study [module 4]({{ site.modules }}/module04.php) and [module 5]({{ site.modules }}/module05.php) (due Sept. 25 before the lecture)   
+    
+* Complete the quiz 4 for module 4 and quiz 5 for module 5 on NYU Classes (due Sept. 25 before the lecture)
+
+</p>
+</div>
+
+</div>

@@ -31,7 +31,7 @@ h1, h2, h3 {
   padding-top: 0;
 }
 
-
+.tiny { font-size: 50%; }
 .small { font-size: 70%; }
 .big { font-size: 140%; }
 .code{font-family: 'Ubuntu Mono'; }

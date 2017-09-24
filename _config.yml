@@ -35,8 +35,8 @@ instructor_office_hours_location: "423 CIWW"
 recitation_office_hours: "Mon 1:30-2:30pm, Tue 10:00-11:00am" 
 recitation_office_hours_location: "412 CIWW" 
 
-tutor_location: "TBD"
-tutor_schedule_link: " "
+tutor_location: "Kimmel Center 4th floor computer lab"
+tutor_schedule_link: "http://cs.nyu.edu/courses/fall17/CSCI-UA.0002-002/common_syllabus/#tutoring"
 
 midterm_exam_date: "Exam 1: Oct. 12, <br>Exam 2: Nov. 9"
 final_exam_date: "__Dec. 18, 8:00 - 9:50 AM__"
