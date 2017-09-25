@@ -34,10 +34,9 @@ the lines of code and comments so that they form a proper Python program
 <div class="column_assign">
 <p markdown="block">
 
-
-* Study [module 4]({{ site.modules }}/module04.php) and [module 5]({{ site.modules }}/module05.php) (due Sept. 25 before the lecture)   
-    
-* Complete the quiz 4 for module 4 and quiz 5 for module 5 on NYU Classes (due Sept. 25 before the lecture)
+- work on _programming challenges_ questions from this week and last week
+slides 
+ 
 
 </p>
 </div>
