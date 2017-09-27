@@ -18,8 +18,11 @@ Wed, Sep 20
 <p markdown="block">
 
 
-* conditional execution : [slides]({{ site.url }}/slides/week2/conditional-execution.html),
-  [for printing]({{ site.url }}/slides/week2/conditional-execution.pdf) 
+* finish with for loops: [slides]({{ site.url }}/slides/week3/for-loops.html),
+ [for printing]({{ site.url }}/slides/week3/for-loops.pdf)  
+
+* problem solving: raises and discounts [slides]({{ site.url }}/slides/week3/for-loops-problems.html),
+ [for printing]({{ site.url }}/slides/week3/for-loops-problems.pdf)  
 
 </p>
 </div>

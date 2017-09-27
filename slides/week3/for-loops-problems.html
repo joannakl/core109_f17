@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Problem Solving </title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+    <link href="../css/slides.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+  </head>
+  <body>
+    <textarea id="source">
+
+class: center, middle
+
+# Problem Solving
+
+.author[
+CORE-UA 109.01, Joanna Klukowska <br>
+<!--adapted from slides for CSCI-UA.002 by D. Engle, C. Kapp and J. Versoza-->
+] 
+
+---
+
+# your paycheck after graduation 
+
+
+__NACE__ (National Association of Colleges and Employers) keeps track of average starting salaries of  college graduates (BA/BS degrees) in US. 
+ 
+The overall __starting salary__ for a Class of 2016 bachelor’s
+degree graduate stands at __$50,359__.
+
+
+----- 
+
+__Work with a partner (or two)__
+
+-  Let's assume that these graduates will receive (on average) 
+a 2% pay increase at the end of their first year and at the 
+end of their second year. 
+
+- Calculate their average salaries after each of those years. Assume that the starting salary is $50,000 (it is easier to work with than $50,359).
+
+
+---
+# your paycheck after graduation
+
+-   Year one:
+    -   Calculating 2% of $50,000:
+        $$0.02 \\times 50,000 = \\frac{2}{100} \\times 50,000 = \\frac{2}{1} \\times 500 = 1,000$$
+    -   salary increase: $1,000
+    -   new salary: $51,000
+
+--
+
+-   **Is the salary increase at the end of the second year also
+    $1,000?**
+
+--
+
+-   No, because we are no longer computing 2% of $50,000, but rather 2% of $51,000!
+
+-   Year two:
+    -   Calculating 2% of $51,000:
+        $$0.02 \\times 51,000 = \\frac{2}{100} \\times 51,000 = \\frac{2}{1} \\times 510 = 1,020$$
+    -   salary increase: $1,020
+    -   new salary: $52,020
+
+---
+# your paycheck after graduation 
+
+__Can we make this calculation more general?__
+
+To simplify our notation, let’s establish some conventions:
+
+-   *p* is the percentage increase applied once a year
+
+-   *S*<sub>0</sub> is the initial salary
+
+-   *S*<sub>1</sub> is the salary at the end of year one,  
+    *S*<sub>2</sub> is the salary at the end of year two,  
+    etc.
+
+-   *I*<sub>1</sub> is the increase at the end of year one,  
+    *I*<sub>2</sub> is the increase at the end of year to,  
+    etc.
+---
+# your paycheck after graduation 
+
+.small[
+-   *p* is the percentage increase applied once a year
+-   *S*<sub>0</sub> is the initial salary
+-   *S*<sub>1</sub>, *S*<sub>2</sub>, ... salaries at the end of year one, two, ...
+-   *I*<sub>1</sub>, *I*<sub>2</sub>, ... increases at the end of year one, two, ...
+]
+
+So far we know that the increase at the end of year 1 is 
+
+ $$I_1 = S_0 \times p$$ 
+ 
+ and that the salary at the end of year 1 is 
+ 
+ $$S_1 = S_0 + I_1$$ 
+
+Can we rewrite the expression for *S*<sub>1</sub>?
+ 
+ $$S_1 = S_0 + I_1 = S_0 + S_0 \times p = S_0 \times ( 1 + p ) $$ 
+ 
+
+
+---
+# your paycheck after graduation 
+
+.small[
+-   *p* is the percentage increase applied once a year
+-   *S*<sub>0</sub> is the initial salary
+-   *S*<sub>1</sub>, *S*<sub>2</sub>, ... salaries at the end of year one, two, ...
+-   *I*<sub>1</sub>, *I*<sub>2</sub>, ... increases at the end of year one, two, ...
+]
+
+How about the salary at the end of year two? 
+
+$$\\begin{aligned}
+       S\_2 &= S\_1 + I\_2 \\\\ 
+        &=  S\_1 +  S\_1 \\times p\\\\ 
+        &=  S\_1 \\times ( 1 + p ) \\\\
+        &=  S\_0 \\times ( 1 + p )\\times ( 1 + p ) \\\\
+        &=  S\_0 \\times ( 1 + p )^2 \\\\
+    \\end{aligned}$$
+  
+And using our numbers we have: 
+    
+$$S_2 = 50,000 \\times 1.02 \\times 1.02 = 52,020$$ 
+
+
+---
+# your paycheck after graduation 
+
+$$S_1 = S_0 \times ( 1 + p ) $$ 
+
+
+$$S_2 = S_0 \times ( 1 + p ) \times ( 1 + p ) $$ 
+
+What do you think the formula for *S*<sub>3</sub> might be?
+
+--
+
+$$S_3 = S_0 \times ( 1 + p ) \times ( 1 + p ) \times ( 1 + p ) $$ 
+
+ 
+How about *S*<sub>10</sub>?
+
+--
+
+$$S_{10} = S_0 \times ( 1 + p )^{10} $$  
+
+<br><br><br>
+__Now, how do we write a program that performs this computation?__ 
+
+
+
+---
+# Programming challenge
+
+Write a program that prompts the user for 
+
+ - their expected salary after graduation
+ 
+ - their expected yearly percentage increase 
+ 
+The program should produce a table showing the expected salary
+at the end of years 1, 2, 3, 4, 5, 10, 15, 20 (assuming that the
+percentage increase remains the same and that the user stays at
+the same job). 
+
+---
+# discounts and sales
+
+- You have a preferred customer discount coupon from your favorite
+clothing store that gives you a 50% discount off of any item in the
+store.
+
+- The store happens to also have an end of season sale and all items are
+being sold at a 50% discount.
+
+- You decided to get a new shirt that was originally priced at $60.00.
+
+- Do you get it for free after combining your discount coupon with the store sale?
+
+
+**Why not?**
+
+---
+# discounts and sales 
+
+- What is the discount due to the store’s end of season sale?<br>
+ 50% of 60.00 = 0.5 × 60.00 = 30.00
+
+- What is the price of the shirt after the store’s end of season sale discount is applied? <br> 
+60.00 -  discount = 30.00
+
+- What is the discount due to your coupon?<br>
+50% of the price after the previous discount  = 0.5 × 30.00 = 15.00
+
+- What is the price you pay? <br> 
+60.00 − 30.00 − 15.00 = 15.00
+
+
+---
+# discounts and sales 
+
+- Can we calculate the final price without computing the two discounts
+separately?
+
+- Sure: we can use calculation similar to the one from pay raise calculations
+
+    - just remember that for discounts we are going to be removing something
+
+    - instead multiply by (1+p) for each year, we will multiply by (1-d) for each
+    discount wher d is the discount percentage 
+    
+- Since we have two discounts, we need to apply them both:
+  
+   ***original_price*  × (1 - *d*<sub>1</sub>)×(1 - *d*<sub>2</sub>) = *final_discounted_price***
+   
+   where *d*<sub>1</sub> and *d*<sub>2</sub> are the two discounts
+   
+---
+# Programming challenge
+
+Write a program that prompts the user for an initial price and 
+three discount amounts 
+    
+- if there are fewer discounts the user should enter 0.0 as the discount amount, 
+
+- if the discount is 30%, the user should enter 0.3 as the discount amount. 
+
+The program should then compute the final price after the three discounts are applied.s
+
+_Something to consider_: does it matter in what order the discounts are applied? 
+
+
+
+    </textarea>
+     <script src="../js/remark.js" type="text/javascript">
+    </script>
+    <script src="../js/remark_conf.js" type="text/javascript">
+    </script>
+    
+  </body>
+</html>
