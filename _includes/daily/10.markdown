@@ -32,7 +32,8 @@ Wed, Sep 20
 <div class="column_assign">
 <p markdown="block">
 
-* keep working on modules 4 and 5 and the corresponding quizzes 
+* start reviewing material and work on problems from the end of chapters
+(the first exam is in approximately two weeks) 
 
 </p>
 </div>
