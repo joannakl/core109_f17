@@ -6,7 +6,7 @@
 <p markdown="block">
 
 Lab # 4 <br> 
-Thu, Sep 21 
+Thu, Sep 28 
 
 </p>
 </div>
@@ -16,14 +16,15 @@ Thu, Sep 21
 <div class="column_recitation" >
 <p markdown="block">
 
-__Writing Your Own Python Code (due Sept. 27 at 11:55pm)__
+__Writing Your Own Python Code (due Oct. 4 at 11:55pm)__
 
 ---
 
 __Make sure that you read instructions carefully__ - they will save you
 time in a long run! 
 
-__Part 1:  [paper worksheet](labs/lab03/lab03.pdf)__
+__Part 1:  paper worksheet
+<!-- __Part 1:  [paper worksheet](labs/lab04/lab04.pdf)__ -->
 - Answer questions on a worksheet distributed by your instructor.
 - You should work in groups of 2-3 students. 
 - Hand in the completed worksheet before the end of the session 
@@ -40,11 +41,11 @@ page).
 Canopy to solve the problems in this lab. 
 
 - Complete the following problems (the instructions are in each of the problems): 
-    - [problem1.py]({{ site.labs_url }}/labs/lab03/problem1.py)
-    - [problem2.py]({{ site.labs_url }}/labs/lab03/problem2.py)
-    - [problem3.py]({{ site.labs_url }}/labs/lab03/problem3.py)
-    - [problem4.py]({{ site.labs_url }}/labs/lab03/problem4.py)
-    - [problem5.py]({{ site.labs_url }}/labs/lab03/problem5.py)
+    - [problem1.py]({{ site.labs_url }}/labs/lab04/problem1.py)
+    - [problem2.py]({{ site.labs_url }}/labs/lab04/problem2.py)
+    - [problem3.py]({{ site.labs_url }}/labs/lab04/problem3.py)
+    - [problem4.py]({{ site.labs_url }}/labs/lab04/problem4.py)
+    - [problem5.py]({{ site.labs_url }}/labs/lab04/problem5.py)
 
 
 --- 
@@ -52,7 +53,7 @@ Canopy to solve the problems in this lab.
 __Submitting your work:__
 
 Once you are done with all the problems, you will need to upload them to 
-NYU Classes. Use _Lab03_ link under the _Assignments_ link. 
+NYU Classes. Use _Lab04_ link under the _Assignments_ link. 
 
 </p>
 </div>
