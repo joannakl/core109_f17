@@ -1,0 +1,48 @@
+
+<div class="lecture1">
+
+
+
+<div class="column_date">
+<p markdown="block">
+
+Class # 8 <br> 
+Mon, Oct. 2
+
+</p>
+</div>
+
+
+
+<div class="column_materials" >
+<p markdown="block">
+
+* repeating things in Python: [slides]({{ site.url }}/slides/week4/problem-solving-part2.pdf),
+ [for printing]({{ site.url }}/slides/week4/problem-solving-part2-4.pdf)  
+
+<br>
+* code examples:
+    - [example1.py]({{ site.url }}/slides/week4/example1.py)
+    - [example2.py]({{ site.url }}/slides/week4/example2.py)
+    - [example3.py]({{ site.url }}/slides/week4/example3.py)
+    - [example4.py]({{ site.url }}/slides/week4/example4.py)
+    - [example5.py]({{ site.url }}/slides/week4/example5.py)
+
+
+</p>
+</div>
+
+
+
+<div class="column_assign">
+<p markdown="block">
+
+- work on _programming challenges_ questions from this week and last week
+slides 
+- review material in modules and quizzes that you completed previously 
+ 
+
+</p>
+</div>
+
+</div>

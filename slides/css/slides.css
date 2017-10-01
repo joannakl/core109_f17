@@ -36,6 +36,8 @@ h1, h2, h3 {
 .big { font-size: 140%; }
 .code{font-family: 'Ubuntu Mono'; }
 .center { text-align: center; }
+.left { text-align: left; }
+.right { text-align: right; }
 .center70 {
     text-align:center;
     width: 70%;
@@ -95,3 +97,20 @@ padding:1% 1% 1% 5%;
     left: 0 !important;
   }
 }
+
+table {
+    /*font-family: arial, sans-serif;*/
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 2px;
+}
+/*
+tr:nth-child(odd), td {
+    border: 1px solid #ffffff;
+    background-color: #eeeeee;
+}*/
