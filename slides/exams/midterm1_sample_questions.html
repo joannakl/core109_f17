@@ -1,0 +1,1063 @@
+
+<html>
+
+<head>
+<link href="../css/exam.css" rel="stylesheet">
+</head>
+
+<body>
+
+
+
+<p>Here is a quick outline of what will be covered on Exam #1. We will be going over this in detail during class this week as well.</p>
+<ol>
+<li>Programming Mechanics
+<ol>
+<li>Functions (what are they, using them, arguments, return values, etc)</li>
+<li>Commenting your code</li>
+<li>Variables (what are they, creating them, using them, naming rules, etc)</li>
+<li>Reading input from the keyboard with the input() function</li>
+</ol>
+</li>
+<li>Math Expressions
+<ol>
+<li>Math operators (+, -, /, //, *)</li>
+<li>Writing math expressions</li>
+<li>Evaluating math expressions</li>
+<li>Storing &amp; printing the results of math expressions</li>
+<li>Order of operations in math expressions</li>
+<li>The exponent operator (**)</li>
+<li>The modulo operator (%)</li>
+</ol>
+</li>
+<li>Data Types
+<ol>
+<li>Strings</li>
+<li>Numeric data types
+<ul>
+<li>Integers (int)</li>
+<li>Floating point numbers (float)</li>
+</ul>
+</li>
+<li>User input &amp; data types (converting strings to floats / ints for calculation purposes)</li>
+<li>Using the float() and int() function to convert strings into numbers</li>
+<li>The Boolean data type</li>
+<li>Boolean variables</li>
+</ol>
+</li>
+<li>Output
+<ol>
+<li>General use of the print function and its default behavior</li>
+<li>Custom line endings (end=")</li>
+<li>Custom item separators (sep=")</li>
+<li>Escape characters (\n, \t, etc)</li>
+</ol>
+</li>
+<li>String Manipulation
+<ol>
+<li>Combining two strings (concatenation)</li>
+<li>Multiplying a string (x = ‘hi’ * 5)</li>
+</ol>
+</li>
+<li>Selection Statements
+<ol>
+<li>The structure of an IF statement (IF keyword, condition, colon, indentation)</li>
+<li>Writing a condition for an IF statement</li>
+<li>Boolean operators (&lt;, &gt;, ==, !=, &gt;=, &lt;=)</li>
+<li>Comparing numeric values using Boolean expressions</li>
+<li>Comparing string values using Boolean expressions</li>
+<li>Using the IF-ELSE statement</li>
+<li>Nesting decision structures (IF statements inside other IF statements)</li>
+<li>The IF-ELIF-ELSE statement</li>
+<li>Logical operators (and, or, not)</li>
+</ol>
+</li>
+<li>Count Controlled Loops ("for" loops)
+<ul>
+<li>mechanics and how they work</li>
+<li>iterating over a list (i.e. for x in [1,2,3,4,5]:)</li>
+<li>using the target variable in a for loop</li>
+<li>nested loops (i.e. loops inside of other loops)</li>
+<li>comparing and contrasting "for" loops with "while" loops (when to use each loop, main advantages of each structure, etc)
+</ul>
+</li>
+<li>The Range Function
+<ul>
+<li>mechanics and how the function works</li>
+<li>creating simple ranges (i.e. range(5))</li>
+<li>creating ranges with defined start and end points (i.e. range(3,10))</li>
+<li>creating ranges with a step value (i.e. range(5,50,5))</li>
+<li>creating ranges that count backwards (i.e. range(50,5,-5))</li>
+<li>user controlled ranges (i.e. range(1, somevariable))</li>
+</ul>
+</li>
+
+<li>Accumulator variables
+  <ol>
+    <li>setting up and using accumulator variables</li>
+    <li>self referential assignment statements (i.e. counter = counter + 1)</li>
+    <li>augmented assignment operators (i.e. counter += 1)</li>
+  </ol>
+</li>
+<li>Error types (logic, syntax and runtime)</li>
+</ol>
+<p>In addition, here are a few sample problems that you can try. Note that we will be going over these in detail during class as well.</p>
+<p><strong>Evaluate the following expressions and note the data type of the result (solutions below)</strong></p>
+<table width="595" border="1" cellspacing="0" cellpadding="0">
+<colgroup>
+<col span="3" width="198" /></colgroup>
+<tbody>
+<tr>
+<td width="204" height="29"><strong><em>Expression</em></strong></td>
+<td width="198"><strong><em>Evaluates To</em></strong></td>
+<td width="198"><strong><em>Data Type</em></strong></td>
+</tr>
+<tr>
+<td width="204" height="29">5 – 2</td>
+<td width="198"></td>
+<td width="198"></td>
+</tr>
+<tr>
+<td width="204" height="29">5 ** 2</td>
+<td width="198"></td>
+<td width="198"></td>
+</tr>
+<tr>
+<td width="204" height="29">‘5’ + ‘2’</td>
+<td width="198"></td>
+<td width="198"></td>
+</tr>
+<tr>
+<td width="204" height="29">‘5’ * 2</td>
+<td width="198"></td>
+<td width="198"></td>
+</tr>
+<tr>
+<td width="204" height="29">5 / 2</td>
+<td width="198"></td>
+<td width="198"></td>
+</tr>
+<tr>
+<td width="204" height="29">5 // 2</td>
+<td width="198"></td>
+<td width="198"></td>
+</tr>
+<tr>
+<td width="204" height="29">5 % 2</td>
+<td width="198"></td>
+<td width="198"></td>
+</tr>
+<tr>
+<td width="204" height="29">5 + 2.0</td>
+<td width="198"></td>
+<td width="198"></td>
+</tr>
+<tr>
+<td width="204" height="29">5.0 * 2.0</td>
+<td width="198"></td>
+<td width="198"></td>
+</tr>
+<tr>
+<td width="204" height="29">10 &gt; 2</td>
+<td width="198"></td>
+<td width="198"></td>
+</tr>
+<tr>
+<td width="204" height="29">2 &lt; 1</td>
+<td width="198"></td>
+<td width="198"></td>
+</tr>
+<tr>
+<td width="204" height="29">2 != 4</td>
+<td width="198"></td>
+<td width="198"></td>
+</tr>
+<tr>
+<td width="204" height="29">4 == 2**2</td>
+<td width="198"></td>
+<td width="198"></td>
+</tr>
+<tr>
+<td width="204" height="29">‘cat’ &lt; ‘dog’</td>
+<td width="198"></td>
+<td width="198"></td>
+</tr>
+<tr>
+<td width="204" height="29">‘Cat’ &lt; ‘dog’</td>
+<td width="198"></td>
+<td width="198"></td>
+</tr>
+<tr>
+<td width="204" height="29">5 &gt; 2 and 10 &gt; 11</td>
+<td width="198"></td>
+<td width="198"></td>
+</tr>
+<tr>
+<td width="204" height="29">5 &gt; 2 or 10 &gt; 11</td>
+<td width="198"></td>
+<td width="198"></td>
+</tr>
+<tr>
+<td width="204" height="29">5 &gt; 2 and not (10 &gt; 11)</td>
+<td width="198"></td>
+<td width="198"></td>
+</tr>
+<tr>
+<td width="204" height="29">‘cat’ + ‘dog’</td>
+<td width="198"></td>
+<td width="198"></td>
+</tr>
+<tr>
+<td width="204" height="29">not (5&gt;2 and 5 &lt; 4)</td>
+<td width="198"></td>
+<td width="198"></td>
+</tr>
+</tbody>
+</table>
+<br><br>
+<p><strong>Short Answers</strong></p>
+<ol>
+<li>Explain what a Boolean expression is and why you would use one while programming. Give three examples.</li>
+<li>Identify three functions that convert data from one data type to another. Provide a practical example of each function and describe when you would use it in an actual program.</li>
+<li>Name and describe three different data types in Python and when they could be used in a program</li>
+</ol>
+<br><br
+<p><strong>Trace the Output (for solutions simply paste the programs below into IDLE)</strong></p>
+
+<p>For the short programs in this section, figure out what the output for those programs is. 
+</p>
+<p><em>Program #1:</em></p>
+<pre>a = 10
+b = 20
+c = 30
+
+if c &gt; b + a:
+    print ("N\nY\nU\n")
+
+else:
+    if b + a &gt;= c:
+        print ("C\nO\nU\nR\nA\nN\nT\n")
+    else:
+        print ("S\nT\nE\nR\nN\n")
+
+print (a,b,c)</pre>
+<p>&nbsp;</p>
+<p><em>Program #2:</em></p>
+<pre>x = 'cupid'
+z = 'arrow'
+
+if x &lt; z:
+    t = x
+    x = z
+    z = t
+
+v = x + " &lt;--&gt; " + z
+
+if ( ( (5 + 2 &gt;= 6.0) and (1.0 &lt; 0.5) ) or True):
+    print (x,z,v, sep='\t')
+else:
+    print (v,z,x, sep='\n')</pre>
+<p>&nbsp;</p>
+<p><em>Program #3:</em></p>
+<pre>a = 5
+b = 10
+c = 25
+
+if a + b == c:
+    print ("X1")
+else:
+    if c == a + b*2:
+        print ("Y1")
+    elif a == c - 2 * b:
+        print ("Y2")
+    else:
+        print ("Y3")</pre>
+        
+        
+        
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+<p><em>Program #4:</em></p>
+<pre>a = 5
+b = 6
+c = 20
+d = 24
+
+if a < b and b * 2 < c:
+
+    print ("Python Case 1")
+    print ("A", '\t', "B", '\t', "C")
+    
+    if a * 2 == c:
+        print (a*2, '\t', a*2, '\t', a*2)
+    elif a * 3 == c:
+        print (a*3, '\t', a*3, '\t', a*3)
+    elif a * 4 == c:
+        print (a*4, '\t', a*4, '\t', a*4)
+    else:
+        print ('?', '\t', '?', '\t', '?')
+        
+else:
+
+    print ("Python Case 2")
+    print ("a", '\t', "b", '\t', "c")
+    
+    if b * 2 == d:
+        print (b*2, '\t', b*2, '\t', b*2)
+    elif b * 3 == d:
+        print (b*3, '\t', b*3, '\t', b*3)
+    elif b * 4 == d:
+        print (b*4, '\t', b*4, '\t', b*4)
+    else:
+        print ('?', '\t', '?', '\t', '?')</pre>
+	
+<p><em>Problem #5:</em></p>
+
+Each ———— denotes the end of a single program. 
+
+<pre>for x in [1,2,3,4,5]:
+    print (x)</pre>
+<p>————</p>
+<pre>for x in [0, 5]:
+    print (x)</pre>
+<p>————</p>
+<pre>for x in range(5):
+    print (x)</pre>
+<p>————</p>
+<pre>for p in range(1,10):
+    print (p)</pre>
+<p>————</p>
+<pre>for q in range(100,50,-10):
+    print (q)</pre>
+<p>————</p>
+<pre>for z in range(-500,500,100):
+    print (z)</pre>
+<p>————</p>
+<pre>for y in range(500,100,100):
+    print ("*", y)</pre>
+<p>————</p>
+<pre>x = 10
+y = 5
+
+for i in range(x-y*2):
+    print ("%", i)</pre>
+<p>————</p>
+<pre>for x in [1,2,3]:
+    for y in [4,5,6]:
+        print (x,y)</pre>
+<p>————</p>
+<pre>for x in range(3):
+    for y in range(4):
+        print (x,y,x+y)</pre>
+<p>————</p>
+<pre>c = 0
+
+for x in range(10):
+    for y in range(5):
+        c += 1
+
+print (c)</pre>
+
+
+
+<br><br>       
+<p><strong>Write a Program (solutions below)</strong></p>
+
+<p>Use your programming skills to solve the following programming challenges:</p>
+
+<ol>
+<li>Write a program that asks the user to supply two words. Sort the words in alphabetical order and print them back to the user.</li>
+<li>Write a program that qualfies the user for a particular credit card. Users must meet the following criteria:
+<ul>
+<li>Make at least 30,000 per yeay</li>
+<li>Their rent payment must not be more than 5% of their total salary per month (i.e. 1,500 is the max rent that they can pay while making 30,000 per year)</li>
+<li>However, if they own their home you do not need to take their monthly house payment into account</li>
+</ul>
+<p>Here is a sample running of the program:</p>
+<pre>Credit card qualifier
+How much do you make per year? 30000
+Do you own your home? (y/n) y
+You qualify!
+
+
+
+Credit card qualifier
+How much do you make per year? 35000
+Do you own your home? (y/n) n
+How much do you pay in rent per month? 1000
+You qualify!
+
+
+
+Credit card qualifier
+How much do you make per year? 50000
+Do you own your home? (y/n) n
+How much do you pay in rent per month? 5000
+Sorry, you don't qualify. Your rent is too high</pre>
+</li>
+<li>Write a program to ask a user to enter in 3 test scores (0-100) and 1 homework score (0-100). Then calculate the user’s grade using the following formula – Tests: 50% Homework: 50%. You can assume the user will enter integer values.  Print out the grade as a number (i.e. 78.56%) along with its letter equivalent (i.e. ‘C’). For the purposes of this program you can assume that A = 90-100, B = 80-89.99, C = 70-79.99, D = 65-69.99 and F is less than 65</li>
+<li>A company has determined that its annual profit is typically 23 percent of total sales. Write a program that asks the user to enter in the projected amount of total sales and then displays the profit that will be made from that amount.</li>
+<li>One acre of land is equivalent to 43,560 square feet. Write a program that asks the user to enter the total square feet in a tract of land and calculate the number of acres in that tract.</li>
+<li>A customer in a store is purchasing 5 items. Write a program that asks for the price of each item, and then displays the subtotal of the sale, the amount of sales tax, and the total. Assume the sales tax is 6 percent.</li>
+<li>Write a program to input a 2 digit integer, call it x, where the rightmost digit is nonzero. Compute the integer y which has the same digits as x, but in reverse order. Print out x, y and x+y. For example:
+  <pre>Please enter a two digit integer: 23 
+23 reversed is: 32 
+23 + 32 is 55</pre>
+</li>
+
+
+  <li>Analyze the code below and identify any problems or issues that might exist.  Offer suggestions on how to re-engineer the code to prevent these errors from occurring and/or rewrite the code so that it functions correctly.
+<pre>rate = str(input("How much do you make per hour? ‘))
+hours = input("How many hours did you work this week? ")
+
+if hours < 40:
+	pay = rate * hours
+if hours > 40
+	pay = rate * 40
+	ot_pay = (hours-40) ** (rate*1.5)
+
+print ("Your total pay is, pay + ot_pay")</pre>
+</li>
+
+<li>Write a "calculator" program that asks the user for two numbers as well as an "operation code" ("a" for add, "s" for subtract, "d" for divide or "m" for multiply).  Using the information provided perform the specified operation and print the result.  Here is a sample running of the program:
+
+<pre>Number 1: 2.0
+Number 2: 3.0
+Operation (a/s/d/m): a
+
+2.0 + 3.0 = 5.0  </pre>
+
+Note that you cannot assume that the user will enter a valid operation code (i.e. they could type in the string "multiply" instead of the string "m").  In this case you will need to present the user with some kind of error (i.e. "Sorry, that’s not a valid operation code") and re-prompt them. However, you can assume that the user will input valid floating-point numbers when prompted.
+
+Also note that dividing a number by 0 will result in a runtime error.  Prevent this from happening in your program by providing special output in this case 
+(i.e. 5.0 / 0.0 = undefined)</li>
+
+<li>A small college has asked you to write a program for their admissions department to help them determine if a student should be accepted into their school.  Write a program that uses the following criteria to determine whether a given applicant should be admitted:
+
+<ul>
+	<li>Combined SAT score of 1600 or more</li>
+	<li>A high school GPA of 3.0 or higher</li>
+	<li>At least 3 extracurricular activities</li>
+</ul>
+
+However, this particular school places a heavy emphasis on extracurricular activities, so students with 5 or more activities only need a 1400 combined score on their SAT and a GPA of 2.8.  Comment your code as necessary. You can assume that the user will enter floating-point values.  
+
+Here are three sample runnings of your program.  
+
+<pre>Student name: Craig
+Combined SAT Score: 1800
+High school GPA: 3.2
+# of extracurricular activities: 3
+Craig should be admitted!
+
+
+Student name: John
+Combined SAT Score: 1500
+High school GPA: 3.1
+# of extracurricular activities: 7
+John should be admitted!
+
+
+Student name: Chris
+Combined SAT Score: 1300
+High school GPA: 2.9
+# of extracurricular activities: 8
+Chris should not be admitted.
+
+</li>
+
+<li>Write a program that prints out all even numbers between 1 and 100,000.</li>
+
+<li>Write a program that asks the user for a number of days. Then prompt the user for their weight on each day they specified (i.e. if they enter 7 you should ask them for 7 weight values). When they are finished print out their average weight for the period in question. Sample running:
+<pre>Enter a number of days: 3
+Day 1: Enter a weight: 180
+Day 2: Enter a weight: 175
+Day 3: Enter a weight: 170
+
+Average weight for 3 days: 175.0</pre>
+</pre>
+
+
+</ol>
+
+<br><br> 
+
+<p><strong>Code Mangler Problems (solutions below)</strong></p>
+
+<p>Code mangler mixed up the lines of several programs. Try to unscramble the lines 
+to create working programs. </p>
+
+<ol>
+
+<li>The following program should calculate the weekly pay including the 
+overtime for hours worked over 40 hrs/week calculated at 1.5 times the regulare pay rate.
+
+The lines of the program have been sorted in alphabetical order and all of the indentation is gone. 
+
+<pre>
+else:
+hours = float(input("How many hours did you work this week? "))
+if hours < 40:
+ot_pay = (hours-40) * (rate*1.5)
+pay = rate * 40 + ot_pay
+pay = rate * hours
+print ("Your total pay is", pay)
+rate = float(input("How much do you make per hour? "))
+</pre>
+
+</li>
+
+<li>The following program used to print a temperatur conversion table. Can you fix it so it 
+does this again?
+<pre>
+f = 9/5*c+32
+for c in range(-10, 41, 2):
+print("-------------------")
+print("Celsius\tFahrenheit")
+print (c, f, sep="\t")   
+</pre>
+</li>
+
+<li>This program should calculate the sume of all the numbers between the two
+values specified by the user. But the code mangler removed some parts of the program and 
+replaced them with   &#9786;  &#9786;  &#9786;.
+Can you complete the program so that it worksagain?</li>
+<pre>
+total =  &#9786;  &#9786;  &#9786;
+start = int(input("Enter starting number"))
+end = int(input("Enter ending number"))
+for i in  &#9786;  &#9786;  &#9786; :      
+    total +=  &#9786;  &#9786;  &#9786;
+print("Sum from", start, "to", end, "inclusively:", total)
+</pre>
+
+
+<li>
+Here is  a program that asks a teacher for the number of students in his or her class. 
+Next, the program asks the teacher how many assignments are given in the class. 
+With this information the program prompts the user to enter in scores for each student 
+and computes their average grade in the class. 
+
+Code mangler removed all the indentation and sorted the lines. Can you fix it?
+
+<pre>
+# add to this student's points
+# ask the teacher for assignments
+# ask the teacher for # students
+# assume the student earned no points
+for assignment in range(0,numassignments):
+for student in range(0,numstudents):
+# get points earned for this assignment
+# go through each assignment
+# go through each student
+# loop is over - compute student's score
+numassignments = int(input('assignments: '))
+numstudents = int(input('students: '))
+print ("Student #", student)
+print ("This student earned:", studentpoints/numassignments)
+score = float(input('Assignment: '))
+studentpoints = 0
+studentpoints += score
+</pre></li>
+
+<li>
+Here is a program that calculates ones salary at the end of year 1 through year 10
+given the user specified initial salary and the user specified percent increase at the end
+of each year.  
+
+This time, the code mangler removed all of the code. The only thing left are the comments.
+Can you recreate the program? 
+
+Oh, and here is a sample run of the program before the code mangler got to it: 
+
+<pre>
+---
+Enter your initial salary: 50000
+
+Enter the percent increase at the end of each year [2, for 2%, for example]: 2
+
+year    salary
+1       $51000.00
+2       $52020.00
+3       $53060.40
+4       $54121.61
+5       $55204.04
+6       $56308.12
+7       $57434.28
+8       $58582.97
+9       $59754.63
+10      $60949.72
+---
+</pre>
+
+
+<pre>
+
+#set the number of years to 10
+
+
+#get the salary from the user
+
+
+#get the percentage increase for the user 
+
+
+#print the header for the table 
+
+
+#iterate 10 times to print the salaries at the end of each year 
+
+    #calculate the new salary 
+
+    #print the year and the salary 
+
+</pre></li>
+
+</ol>
+
+
+<p><em><strong>&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;</strong></em><br />
+<em><strong>&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;</strong></em><br />
+<em><strong>&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;</strong></em></p>
+<p><em><strong>Solutions</strong></em></p>
+<p><em><strong>&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;</strong></em><br />
+<em><strong>&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;</strong></em><br />
+<em><strong>&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;</strong></em></p>
+<p><strong> </strong></p>
+<div>
+<p><strong>Evaluation Problems</strong></p>
+<table width="595" border="0" cellspacing="0" cellpadding="0">
+<colgroup>
+<col span="3" width="198" /></colgroup>
+<tbody>
+<tr>
+<td width="204" height="29"><strong><em>Expression</em></strong></td>
+<td width="198"><strong><em>Evaluates To</em></strong></td>
+<td width="198"><strong><em>Data Type</em></strong></td>
+</tr>
+<tr>
+<td width="204" height="29">5 – 2</td>
+<td width="198">3</td>
+<td width="198">integer</td>
+</tr>
+<tr>
+<td width="204" height="29">5 ** 2</td>
+<td width="198">25</td>
+<td width="198">integer</td>
+</tr>
+<tr>
+<td width="204" height="29">‘5’ + ‘2’</td>
+<td width="198">52</td>
+<td width="198">string</td>
+</tr>
+<tr>
+<td width="204" height="29">‘5’ * 2</td>
+<td width="198">55</td>
+<td width="198">string</td>
+</tr>
+<tr>
+<td width="204" height="29">5 / 2</td>
+<td width="198">2.5</td>
+<td width="198">float</td>
+</tr>
+<tr>
+<td width="204" height="29">5 // 2</td>
+<td width="198">2</td>
+<td width="198">integer</td>
+</tr>
+<tr>
+<td width="204" height="29">5 % 2</td>
+<td width="198">1</td>
+<td width="198">integer</td>
+</tr>
+<tr>
+<td width="204" height="29">5 + 2.0</td>
+<td width="198">7.0</td>
+<td width="198">float</td>
+</tr>
+<tr>
+<td width="204" height="29">5.0 * 2.0</td>
+<td width="198">10.0</td>
+<td width="198">float</td>
+</tr>
+<tr>
+<td width="204" height="29">10 &gt; 2</td>
+<td width="198">True</td>
+<td width="198">Boolean</td>
+</tr>
+<tr>
+<td width="204" height="29">2 &lt; 1</td>
+<td width="198">False</td>
+<td width="198">Boolean</td>
+</tr>
+<tr>
+<td width="204" height="29">2 != 4</td>
+<td width="198">True</td>
+<td width="198">Boolean</td>
+</tr>
+<tr>
+<td width="204" height="29">4 == 2**2</td>
+<td width="198">True</td>
+<td width="198">Boolean</td>
+</tr>
+<tr>
+<td width="204" height="29">‘cat’ &lt; ‘dog’</td>
+<td width="198">True</td>
+<td width="198">Boolean</td>
+</tr>
+<tr>
+<td width="204" height="29">‘Cat’ &lt; ‘dog’</td>
+<td width="198">True</td>
+<td width="198">Boolean</td>
+</tr>
+<tr>
+<td width="204" height="29">5 &gt; 2 and 10 &gt; 11</td>
+<td width="198">False</td>
+<td width="198">Boolean</td>
+</tr>
+<tr>
+<td width="204" height="29">5 &gt; 2 or 10 &gt; 11</td>
+<td width="198">True</td>
+<td width="198">Boolean</td>
+</tr>
+<tr>
+<td width="204" height="29">5 &gt; 2 and not (10 &gt; 11)</td>
+<td width="198">True</td>
+<td width="198">Boolean</td>
+</tr>
+<tr>
+<td width="204" height="29">not (5&gt;2 and 5 &lt; 4)</td>
+<td width="198">True</td>
+<td width="198">Boolean</td>
+</tr>
+</tbody>
+</table>
+
+
+<br><br>
+<p><strong>Short Answers</strong></p>
+
+<p><em>Explain what a Boolean expression is and why you would use one while programming. Give three examples.</em></p>
+<p>A Boolean expression is an expression that compares two or more values.  It almost always involves the use a relational operator (>, <, ==, !=, etc) and always evaluates to True or False.  We use Boolean expressions in Python to ask a question (i.e. if number < 0 then print "no negative numbers allowed!"), to control a repetition structure (i.e. while keepgoing == True, perform some operation) and to store a logical value in a variable (i.e. answer = 5 > 2)</p>
+
+<p><em>Identify three functions that convert data from one data type to another. Provide a practical example of each function and describe when you would use it in an actual program.</em></p>
+<p>The float(), int() and str() functions convert data from one data type to another.  Here are a few examples:
+
+<pre># turn the user's input into a floating point number
+answer = float(input("Enter a number: "))
+
+# turn a String into an integer
+a = "525"
+b = int(a)
+
+# convert a number into a String
+a = 525
+b = str(a)</pre>
+
+<p><em>Name and describe three different data types in Python and when they could be used in a program</em></p>
+<p>Integer: used to store whole number values.  Useful for creating "counter" accumulator variables.  Float: used to store floating point numbers.  Useful for storing currency values.  String: used to store sequences of characters, such as "Hello, World!"</p>
+
+<br>
+<p><strong>Trace The Output</strong></p>
+<p>(just copy and paste the code into IDLE to see the output!)</p>
+<br><br>
+<p><strong>Programming Problems</strong></p>
+<p><em><strong>Problem #1</strong></em></p>
+<pre>word1 = input("Word 1: ")
+word2 = input("Word 2: ")
+
+if word1 &gt; word2:
+    print (word2, word1)
+
+else:
+    print (word1, word2)</pre>
+<p>&nbsp;</p>
+
+<p><em><strong>Problem #2</strong></em></p>
+<pre><em><strong></strong></em>print ("Credit card qualifier")
+salary = int(input("How much do you make per year? "))
+own = input("Do you own your home? (y/n) ")
+
+if own == 'y':
+    if salary &gt;= 30000:
+        print ("You qualify!")
+    else:
+        print ("You don't qualify.  You need to make at least 30,000 per year and own your home.")
+
+else:
+    if salary &lt; 30000:
+        print ("You don't qualify.  You need to make at least 30,000 per year and own your home.")
+    else:        
+        rent = int(input("How much do you pay in rent per month? "))
+
+        if rent &gt; 0.05 * salary:
+            print ("Sorry, you don't qualify.  Your rent is too high")
+        else:
+            print ("You qualify!")</pre>
+<p>&nbsp;</p>
+<p><strong><em>Problem #3</em></strong></p>
+<pre>test1 = float(input("Test 1: "))
+test2 = float(input("Test 2: "))
+test3 = float(input("Test 3: "))
+homework = float(input("Homework: "))
+
+test_avg = (test1 + test2 + test3) / 3
+class_avg = (test_avg + homework) / 2
+
+print ("Class average:", format(class_avg, '.2f'))
+print ("Letter Grade: ", end='')
+
+if class_avg &gt; 90:
+    print ("A")
+
+elif class_avg &gt; 80:
+    print ("B")
+
+elif class_avg &gt; 70:
+    print ("C")
+
+elif class_avg &gt; 65:
+    print ("D")
+
+else:
+    print ("F")</pre>
+<p>&nbsp;</p>
+<p><em><strong>Problem #4</strong></em></p>
+<pre># get sales
+sales = float(input("Sales: "))
+
+# calc profit
+profit = 0.23 * sales
+
+# output
+print ("Projected profit:", profit)</pre>
+<p>&nbsp;</p>
+<p><em><strong>Problem #5</strong></em></p>
+<pre># get square feet
+square_feet = int(input("Square feet: "))
+
+# convert to acres
+acres = square_feet / 43560
+
+# output
+print ("In acres:", acres)</pre>
+<p>&nbsp;</p>
+<p><em><strong>Problem #6</strong></em></p>
+<pre># get 5 prices
+p1 = float(input("Price 1: "))
+p2 = float(input("Price 2: "))
+p3 = float(input("Price 3: "))
+p4 = float(input("Price 4: "))
+p5 = float(input("Price 5: "))
+
+# calc subtotal
+subtotal = p1+p2+p3+p4+p5
+
+# calc tax
+tax = 0.06 * subtotal
+
+# output
+print ("Subtotal:", subtotal)
+print ("Tax:", tax)
+print ("Total:", subtotal+tax)</pre>
+<p>&nbsp;</p>
+<p><em><strong>Problem #7</strong></em></p>
+<pre># get 2 digit integer
+num = int(input("Number: "))
+
+# extract tens and ones
+tens = num // 10
+ones = num % 10
+
+# construct the reversed number
+rev = ones*10 + tens*1
+
+# output
+print (num, "reversed is:", rev)
+
+print (num, "+", rev, "is", num+rev)</pre>
+
+
+ <p><em><strong>Problem #9</strong></em></p>
+<pre>rate = float(input("How much do you make per hour? "))
+hours = float(input("How many hours did you work this week? "))
+
+if hours < 40:
+    pay = rate * hours
+else:
+    ot_pay = (hours-40) * (rate*1.5)
+    pay = rate * 40 + ot_pay
+
+print ("Your total pay is", pay)</pre>
+
+
+
+ <p>&nbsp;</p>
+
+ <p><em><strong>Problem #10</strong></em></p>
+
+<pre># get two numbers
+n1 = float(input("Number: "))
+n2 = float(input("number: "))
+
+# get an operation code, making sure to validate the data
+op = input("Operation code (a/s/m/d): ")
+if not(op == 'a' or op == 's' or op == 'm' or op == 'd'):
+    print ("Wrong operation")
+
+# evaluate operation
+if op == 'a':
+    print (n1, "+", n2, "=", n1+n2)
+elif op == 's':
+    print (n1, "-", n2, "=", n1-n2)
+elif op == 'm':
+    print (n1, "*", n2, "=", n1*n2)
+elif op == 'd':
+
+    # make sure we don't crash if denom is 0
+    if n2 == 0:
+        print (n1, "/", n2, "=", "undefined")
+    else:
+        print (n1, "/", n2, "=", n1/n2)
+        </pre>
+
+
+ <p>&nbsp;</p>
+ <p><em><strong>Problem #11</strong></em></p>
+
+<pre>
+    # get info
+    name = input("Student name: ")
+    sat  = float(input("SAT score: "))
+    gpa  = float(input("GPA: "))
+    act  = float(input("# of activities: "))
+
+    # evaluate - normal admission
+    if sat >= 1600 and gpa >= 3.0 and act >= 3:
+        print (name, "should be admitted")
+    elif act >= 5 and sat >= 1400 and gpa >= 2.8:
+        print (name, "should be admitted")
+    else:
+        print (name, "should not be admitted")
+</pre>
+
+
+
+<p><em><strong>Problem #12</strong></em></p>
+<pre>for i in range(2, 100001, 2):
+    print (i)</pre>
+
+
+
+
+<p><em><strong>Problem #13</strong></em></p>
+<pre>total = 0
+days = int(input("Enter a number of days: "))
+for day in range(days):
+    prompt = "Day " + str(day) + ": Enter a weight: "
+    weight = input(prompt)
+    total += weight
+
+print ("Average weight for", days, "days:", total/days)</pre>
+
+
+<br><br>
+
+<p><strong>Code Mangler Problems</strong></p>
+
+
+<ol>
+<li>
+<pre>
+rate = float(input("How much do you make per hour? "))
+hours = float(input("How many hours did you work this week? "))
+
+if hours < 40:
+    pay = rate * hours
+else:
+    ot_pay = (hours-40) * (rate*1.5)
+    pay = rate * 40 + ot_pay
+
+print ("Your total pay is", pay)
+</pre>
+</li>
+
+<li>
+<pre>
+print("Celsius\tFahrenheit")
+print("-------------------")
+for c in range(-10, 41, 2):
+    f = 9/5*c+32
+    print (c, f, sep="\t")   
+</pre></li>
+
+<li>
+<pre>
+total = 0
+start = int(input("Enter starting number"))
+end = int(input("Enter ending number"))
+for i in range(start, end + 1):      # +1 to make it inclusive
+    total += i
+print("Sum from", start, "to", end, "inclusively:", total)
+</pre></li>
+
+<li><pre>
+# ask the teacher for # students
+numstudents = int(input('students: '))
+
+# ask the teacher for assignments
+numassignments = int(input('assignments: '))
+
+# go through each student
+for student in range(0,numstudents):
+
+	print ("Student #", student)
+	
+	# assume the student earned no points
+	studentpoints = 0
+
+	# go through each assignment
+	for assignment in range(0,numassignments):
+
+		# get points earned for this assignment
+		score = float(input('Assignment: '))
+		
+		# add to this student's points
+		studentpoints += score
+        
+	# loop is over - compute student's score
+	print ("This student earned:", studentpoints/numassignments)
+</pre></li>
+
+<li>
+<pre>
+
+#set the number of years to 10
+num_of_years = 10
+
+#get the salary from the user
+salary0 = float ( input ("Enter your initial salary: "))
+
+#get the percentage increase for the user 
+percent_increase = float(
+     input ("Enter the percent increase at the end of each year [2, for 2%, for example]: "))
+
+#print the header for the table 
+print("year\tsalary") 
+
+#iterate 10 times to print the salaries at the end of each year 
+for year in range(1,num_of_years+1):
+    #calculate the new salary 
+    salary = salary0 * ( (1+percent_increase/100)**year )
+    #print the year and the salary 
+    print (year, "\t$", format(salary, ".2f"), sep="")
+</pre>
+</li>
+
+</ol>
+
+
+</body>
+
+</html>

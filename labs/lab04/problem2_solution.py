@@ -62,4 +62,5 @@ __COMMENT YOUR SOURCE CODE__ by
 print("Celsius\tFahrenheit")
 print("-------------------")
 for c in range(-10, 41, 2):
-    print (c, 9/5*c+32, sep="\t")    
+    f = 9/5*c+32
+    print (c, f, sep="\t")    

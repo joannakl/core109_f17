@@ -6,8 +6,8 @@
 <div class="column_date">
 <p markdown="block">
 
-Class # 7 <br> 
-Wed, Sep 20
+Class # 9 <br> 
+Wed, Oct. 4
 
 </p>
 </div>
@@ -18,11 +18,8 @@ Wed, Sep 20
 <p markdown="block">
 
 
-* finish with for loops: [slides]({{ site.url }}/slides/week3/for-loops.html),
- [for printing]({{ site.url }}/slides/week3/for-loops.pdf)  
-
-* problem solving: raises and discounts [slides]({{ site.url }}/slides/week3/for-loops-problems.html),
- [for printing]({{ site.url }}/slides/week3/for-loops-problems.pdf)  
+* linear and exponential growth: [slides]({{ site.url }}/slides/week4/exponential_growth.pdf),
+ <!--[for printing]({{ site.url }}/slides/week3/for-loops.pdf)  -->
 
 </p>
 </div>
@@ -32,8 +29,9 @@ Wed, Sep 20
 <div class="column_assign">
 <p markdown="block">
 
-* start reviewing material and work on problems from the end of chapters
-(the first exam is in approximately two weeks) 
+* Khan academy:
+    * [linear equations and functions](https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-linear-equations-functions) 
+    * [exponential growth and decay](https://www.khanacademy.org/math/algebra2/exponential-growth-and-decay-alg-2) 
 
 </p>
 </div>

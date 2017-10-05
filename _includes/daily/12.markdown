@@ -17,7 +17,7 @@ Mon, Oct. 2
 <div class="column_materials" >
 <p markdown="block">
 
-* repeating things in Python: [slides]({{ site.url }}/slides/week4/problem-solving-part2.pdf),
+* problem solving and graphing functions in Python: [slides]({{ site.url }}/slides/week4/problem-solving-part2.pdf),
  [for printing]({{ site.url }}/slides/week4/problem-solving-part2-4.pdf)  
 
 <br>
