@@ -52,14 +52,18 @@ __COMMENT YOUR SOURCE CODE__ by
   file (above these instructions)
 """
     
-
+#set the number of years to be used 
 num_of_years = 10
 
+#prompt the user for initial salary and percentage increase 
 salary0 = float ( input ("Enter your initial salary: "))
 percent_increase = float(
      input ("Enter the percent increase at the end of each year [2, for 2%, for example]: "))
 
+#print the table header 
 print("year\tsalary") 
+
+#calculate salary at the end of each year 
 for year in range(1,num_of_years+1):
     salary = salary0 * ( (1+percent_increase/100)**year )
     print (year, "\t$", format(salary, ".2f"), sep="")

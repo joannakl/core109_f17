@@ -1,0 +1,171 @@
+1a. total(years) = 1,000 + 50 * years
+
+1b. total(years) = 1,000 * (1.045)^years
+
+2. 0.002 * 2^n  where ^ denotes the exponent 
+
+3a.
+Sample answer: 
+
+initial bill = 100
+
+end of month 1, payment = 20.00 
+	remaining balance: 100 - 20 = 80
+
+end of  month 2 payment = 20.00 
+	balance from previous month plus interest: 80 * 1.014 =  81.12 
+	remaining balance: 81.12 - 20 = 61.12
+
+end of  month 3 payment =  20.00 
+	balance from previous month plus interest: 61.12 * 1.014 = 61.97568
+	remaining balance: 61.97568 - 20 = 41.97568
+
+end of  month 4 payment = 20.00 
+	balance from previous month plus interest: 41.97568 * 1.014 = 42.56333952
+	remaining balance: 42.56333952 - 20 = 22.56333952
+
+end of  month 5 payment = 20.00 
+	balance from previous month plus interest: 22.56333952 * 1.014 = 22.87922627
+	remaining balance: 22.87922627 - 20 = 2.87922627
+
+end of  month 6 payment = 2.92
+	balance from previous month plus interest: 2.87922627 * 1.014 = 2.919535441
+	remaining balance: 0.00 
+
+Answer = 6 months
+
+
+The algorithm:
+
+Bill = 100.00
+month_1 = (100 - 20) * 1.014			
+month_2 = (month_1 -20) * 1.014
+month_3 = (month_2 -20) * 1.014
+...
+
+
+3b.
+
+The algorithm:
+
+Bill = 100.00
+month_1 = (100 - 40) * 1.014			
+month_2 = (month_1 -40) * 1.014
+...
+
+
+Sample answer: 
+
+initial bill = 100
+
+end of month 1, payment = 40  
+	remaining balance: 100 - 40 = 60
+
+end of  month 2 payment = 40
+	balance from previous month plus interest: 60 * 1.014 =  60.84
+	remaining balance: 60.84 - 40 = 20.84
+
+end of  month 3 payment = 21.13 
+	balance from previous month plus interest: 20.84 * 1.014 = 21.13176
+	remaining balance: 0.00
+
+Answer = 3 months
+
+
+4.
+	rate = float(input("How much do you make per hour? "))
+	hours = float(input("How many hours did you work this week? "))
+	if hours < 40:
+		pay = rate * hours
+	else:
+		ot_pay = (hours - 40) * (rate * 1.5)
+		pay = rate  * 40 + ot_pay
+	print("Your total pay is", pay)
+
+
+5.1
+A
+C
+E
+
+
+5.2
+A
+
+
+5.3
+E
+
+
+5.4
+10
+
+
+
+5.5
+100
+90
+80
+70
+60
+
+
+5.6
+0 0 0
+0 1 1
+0 2 2
+0 3 3
+1 0 1
+1 1 2
+1 2 3
+1 3 4
+2 0 2
+2 1 3
+2 2 4
+2 3 5
+
+6.
+
+#prompt user for the bill amount 
+bill = float(input("What is your bill?\n"))
+
+#calculate the tax
+tax = bill * .08875
+
+#calculate the tip
+tip = bill * .2
+
+#calculate the total 
+total = bill+tax+tip
+
+#print the information (use of format function is optional) 
+
+print(" NYC tax is $"+format(tax,'.2f'), sep='')
+print(" 20% tip is $"+ format(tip,'.2f'), sep='')
+
+#.2f formats to 2 decimals
+print("\nYour total bill is $"+format(total,'.2f'), sep='')
+
+
+
+7.
+#remember a**b implies a^b
+
+#prompt user for a number
+number = int(input("Enter a number: "))
+
+#print the off powers of 2 
+for n in range (1, number+1, 2):
+  print("2 ^", n, "=", 2**n)   
+
+
+
+
+
+
+
+
+
+
+
+

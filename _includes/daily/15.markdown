@@ -1,0 +1,35 @@
+
+<div class="lecture1">
+
+
+
+<div class="column_date">
+<p markdown="block">
+
+ <br> 
+Mon, Oct. 9
+
+</p>
+</div>
+
+
+
+<div class="column_materials" >
+<p markdown="block">
+<br><br>
+Fall break - no classes 
+<br><br>
+
+</p>
+</div>
+
+
+
+<div class="column_assign">
+<p markdown="block">
+
+
+</p>
+</div>
+
+</div>

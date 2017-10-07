@@ -58,9 +58,11 @@ __COMMENT YOUR SOURCE CODE__ by
   file (above these instructions)
 """
 
-
+#print the table header
 print("Celsius\tFahrenheit")
 print("-------------------")
+
+#calculate value for Celsius temperatures from -10 to 40
 for c in range(-10, 41, 2):
     f = 9/5*c+32
     print (c, f, sep="\t")    

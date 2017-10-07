@@ -49,16 +49,27 @@ __COMMENT YOUR SOURCE CODE__ by
 * including your name at the top of your
   file (above these instructions)
 """
+
 num_of_days = 30
 
+#print the table header 
 print("day\tpay")
 print("-------------------")
+
+
+#print the initial row for the first day 
 pay = 1
 day = 1
 total_pay = pay 
 print(day,"\t $", pay/100, sep="")
+
+#print the remaining days 
 for day in range(2,num_of_days+1):
+    #current pay is previous pay times 2 
     pay = pay*2
+    #keep track of the total pay 
     total_pay = total_pay + pay
     print (day,"\t $", pay/100, sep="")
+
+#print the total for all 30 days     
 print ("In ", num_of_days, " days you will earn $", total_pay/100, ".", sep="")      
