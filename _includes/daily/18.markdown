@@ -1,0 +1,34 @@
+
+<div class="lecture1">
+
+
+
+<div class="column_date">
+<p markdown="block">
+
+ <br> 
+Mon, Oct. 16
+
+</p>
+</div>
+
+
+
+<div class="column_materials" >
+<p markdown="block">
+
+while loops - [slides]({{ site.url }}/slides/week6/while-loops.html)
+
+</p>
+</div>
+
+
+
+<div class="column_assign">
+<p markdown="block">
+
+
+</p>
+</div>
+
+</div>
