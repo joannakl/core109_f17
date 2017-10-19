@@ -1,0 +1,39 @@
+
+<div class="lecture2">
+
+
+
+<div class="column_date">
+<p markdown="block">
+
+Class # 12 <br> 
+Wed, Oct. 18
+
+</p>
+</div>
+
+
+
+<div class="column_materials" >
+<p markdown="block">
+
+analyzing exam scores - [slides]({{ site.url }}/slides/week6/grades.pdf)<br>
+average/median, mode, range, standard deviation - what do they tell us
+about the data 
+
+</p>
+</div>
+
+
+
+<div class="column_assign">
+<p markdown="block">
+
+* Khan academy:
+    * [linear equations and functions](https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-linear-equations-functions) 
+    * [exponential growth and decay](https://www.khanacademy.org/math/algebra2/exponential-growth-and-decay-alg-2) 
+
+</p>
+</div>
+
+</div>
