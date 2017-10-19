@@ -29,10 +29,9 @@ about the data
 <div class="column_assign">
 <p markdown="block">
 
-* Khan academy:
-    * [linear equations and functions](https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-linear-equations-functions) 
-    * [exponential growth and decay](https://www.khanacademy.org/math/algebra2/exponential-growth-and-decay-alg-2) 
-
+KhanAcademy tutorials:
+* [Summarizing center of distributions](https://www.khanacademy.org/math/probability/data-distributions-a1/summarizing-center-distributions/v/statistics-intro-mean-median-and-mode)
+* [Summarizing spread of distributions](https://www.khanacademy.org/math/probability/data-distributions-a1/summarizing-spread-distributions/v/calculating-interquartile-range-iqr) 
 </p>
 </div>
 

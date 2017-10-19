@@ -23,7 +23,7 @@ __Repeating things with <code>while</code> loops (due Oct. 25 at 11:55pm)__
 __Make sure that you read instructions carefully__ - they will save you
 time in a long run! 
 
-__Part 1:  [paper worksheet](labs/lab04/lab04.pdf)__ 
+__Part 1:  [paper worksheet](labs/lab06/lab06.pdf)__ 
 - Answer questions on a worksheet distributed by your instructor.
 - You should work in groups of 2-3 students. 
 - Hand in the completed worksheet before the end of the session 
