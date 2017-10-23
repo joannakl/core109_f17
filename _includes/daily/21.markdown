@@ -1,0 +1,38 @@
+
+<div class="lecture1">
+
+
+
+<div class="column_date">
+<p markdown="block">
+
+Class # 13 <br> 
+Mon, Oct. 23
+
+</p>
+</div>
+
+
+
+<div class="column_materials" >
+<p markdown="block">
+
+lists in python - [slides]({{ site.url }}/slides/week7/lists.html)
+
+</p>
+</div>
+
+
+
+<div class="column_assign">
+<p markdown="block">
+
+
+* Study [module 7]({{ site.modules }}/module07.php) and [module 8]({{ site.modules }}/module08.php) (due Oct. 30 before the lecture)   
+    
+* Complete the quiz 7 for module 7 and quiz 8 for module 8 on NYU Classes (due Oct. 30 before the lecture)
+
+</p>
+</div>
+
+</div>
