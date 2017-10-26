@@ -16,14 +16,14 @@ Thu, Oct. 26
 <div class="column_recitation" >
 <p markdown="block">
 
-__Repeating things with <code>while</code> loops (due Oct. 25 at 11:55pm)__
+__Repeating things with <code>while</code> loops and using lists(due Nov. 1 at 11:55pm)__
 
 ---
 
 __Make sure that you read instructions carefully__ - they will save you
 time in a long run! 
 
-__Part 1:  [paper worksheet](labs/lab06/lab06.pdf)__ 
+__Part 1:  [paper worksheet](labs/lab07/lab07.pdf)__ 
 - Answer questions on a worksheet distributed by your instructor.
 - You should work in groups of 2-3 students. 
 - Hand in the completed worksheet before the end of the session 
@@ -40,10 +40,10 @@ page).
 Canopy to solve the problems in this lab. 
 
 - Complete the following problems (the instructions are in each of the problems): 
-    - [problem1.py]({{ site.labs_url }}/labs/lab06/problem1.py)
-    - [problem2.py]({{ site.labs_url }}/labs/lab06/problem2.py)
-    - [problem3.py]({{ site.labs_url }}/labs/lab06/problem3.py)
-    - [problem4.py]({{ site.labs_url }}/labs/lab06/problem4.py)
+    - [problem1.py]({{ site.labs_url }}/labs/lab07/problem1.py)
+    - [problem2.py]({{ site.labs_url }}/labs/lab07/problem2.py)
+    - [problem3.py]({{ site.labs_url }}/labs/lab07/problem3.py)
+    - [problem4.py]({{ site.labs_url }}/labs/lab07/problem4.py)
 
 
 --- 
@@ -51,7 +51,7 @@ Canopy to solve the problems in this lab.
 __Submitting your work:__
 
 Once you are done with all the problems, you will need to upload them to 
-NYU Classes. Use _Lab06_ link under the _Assignments_ link. 
+NYU Classes. Use _lab07_ link under the _Assignments_ link. 
 
 </p>
 </div>
