@@ -49,7 +49,7 @@ Canopy to solve the problems in this lab.
 __Submitting your work:__
 
 Once you are done with all the problems, you will need to upload them to 
-NYU Classes. Use _lab07_ link under the _Assignments_ link. 
+NYU Classes. Use _lab08_ link under the _Assignments_ link. 
 
 </p>
 </div>
