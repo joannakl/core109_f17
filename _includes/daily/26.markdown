@@ -5,8 +5,8 @@
 <div class="column_date">
 <p markdown="block">
 
-Lab # 7 <br> 
-Thu, Oct. 26
+Lab # 8 <br> 
+Thu, Nov. 2
 
 </p>
 </div>
