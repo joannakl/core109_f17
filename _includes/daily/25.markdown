@@ -17,8 +17,10 @@ Wed, Oct. 25
 <div class="column_materials" >
 <p markdown="block">
 
-writing code by hand exercises - solving three problems requiring 
-the use of loops, input validation and lists 
+
+lists in python continued - [slides]({{ site.url }}/slides/week8/strings.html) 
+
+<br> 
 
 </p>
 </div>
@@ -28,9 +30,6 @@ the use of loops, input validation and lists
 <div class="column_assign">
 <p markdown="block">
 
-KhanAcademy tutorials:
-* [Summarizing center of distributions](https://www.khanacademy.org/math/probability/data-distributions-a1/summarizing-center-distributions/v/statistics-intro-mean-median-and-mode)
-* [Summarizing spread of distributions](https://www.khanacademy.org/math/probability/data-distributions-a1/summarizing-spread-distributions/v/calculating-interquartile-range-iqr) 
 </p>
 </div>
 

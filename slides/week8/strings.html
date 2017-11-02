@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Strings</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+    <link href="../css/slides.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+
+class: center, middle
+
+# Strings 
+
+
+.author[
+CORE-UA 109.01, Joanna Klukowska <br>
+adapted from slides for CSCI-UA.002 by D. Engle, C. Kapp and J. Versoza
+] 
+
+---
+
+# what are strings in Python? 
+
+* A String is a data type in the Python programming language
+
+* A String can be described as a _sequence of characters_
+
+* Characters are arranged in a particular position in a String.
+    For example:
+    
+    ```python
+    word1 ="hello"
+    ```
+
+* In this String the character 'h' is the first character in the
+String, followed by 'e', etc. The following String contains the
+same characters but they are at different positions:
+    
+    ```python
+    word2 ="loleh"
+    ```
+
+---
+
+
+class: center, middle
+
+.section[
+# working with strings in Python - basics
+]
+
+---
+
+# accessing characters in a string 
+
+* iterating over strings with a `for` loop
+
+    ```python
+    for c in "Core 109":
+        print (c, sep = '~')
+    ```
+    
+    produces output of 
+    
+    ```
+    C~o~r~e~ ~1~0~9
+    ```
+--
+    
+* using indexes to access individual characters 
+
+    ```python
+    word = "Shakespeare"
+    print (word[0])       //prints S
+    print (word[4])       //prints e
+    print (word[9])       //prints r   
+    ``` 
+    accessing index out of range of valid indexes, produces an error in Python 
+
+    !!! we cannot change characters in a string !!! 
+
+    ```python
+    word[0] = 's'  //does not work !!! 
+    ```
+
+---
+
+# length of strings
+
+__`len()`__ function can be used to determine the length of a string 
+
+```python
+word = "superman"
+num_of_characters = len(word)
+print ( num_of_characters ) 
+``` 
+
+output 
+
+```
+8
+``` 
+
+---
+
+# what will this program do? 
+
+```python
+phrase = 'Superman sings in the shower'
+counter = 0
+for c in phrase :
+    if c == 's' or c =='S':
+        counter += 1
+print ( counter )
+```
+--
+
+output
+
+```
+4
+```
+
+* how would you rewrite it to count all the occurences of letter 'o'?
+
+* how would you rewrite it to count all the occurences of vowels? 
+
+* write a program that prints a string in reverse
+
+* write a program that prints every other character in a string 
+
+---
+
+
+class: center, middle
+
+.section[
+# slicing strings
+]
+
+---
+
+# string slices 
+
+* sometimes we want  to extract a portion of a string from another string
+
+* we use __slicing__ to extract substrings from a string 
+
+    ```python
+    full_name ="John Smith"
+    first_name = full_name[0:4]
+    print (first_name)
+    ```
+
+    output: 
+    
+    ```
+    John
+    ``` 
+
+---
+
+# string slices 
+
+* we use __bracket notation__ to specify the index range of the characters we want to extract
+
+* the syntax for this notation is as follows:
+    
+    ```
+    substring = bigstring[ start:end:step ]
+    ``` 
+    
+    * we must supply at least a `start` or an `end` index value, 
+    * the other values are optional
+    
+* extracted substring contains all characters starting at the `start` index and
+continue up to (but do not include) the `end` index
+
+* omitting a `start` index will cause Python to assume
+you want to start at the beginning of the string 
+
+* omitting a `end` index will cause Python to assume
+    you want to continue till the end of the string 
+
+* (specifying the range of characters to extract looks very much like 
+the `range()` function) 
+
+
+---
+
+# string slices - example 
+
+What will the following code print?
+
+```python
+
+word = "Superman sings in the shower."
+
+print(word[0:8])
+
+print(word[9:14])
+
+print(word[:5])
+
+print(word[9:])
+
+print(word[0:len(word):3])
+
+```
+
+
+---
+
+# string slices - example 
+
+What will the following code print?
+
+```python
+
+
+word = "Superman sings in the shower."
+
+print(word[0:8])        # Supermen
+
+print(word[9:14])       # sings
+
+print(word[:5])         # Super
+
+print(word[9:])         # sings in the shower.
+
+print(word[0:len(word):3])  # Seasgit or 
+
+```
+
+
+
+---
+class: center, middle
+
+.section[
+# more operations on strings 
+]
+
+---
+# concatenation with __`+`__ and __`*`__ 
+
+* We already know that the "+" and "*" operators can be used
+in conjunction with a String
+
+* The "+" operator can be used to "concatenate" two Strings
+together
+
+* The "*" operator can be used to repeat a String a certain
+number of times (specified as an integer)
+
+
+
+---
+# testing if characters or substrings are in a string
+
+* The __`in`__ operator is a Boolean operator that you can use to
+test to see if a substring exists inside of another string.
+
+    ```python
+    phrase = "Jackson James John Chris Tom"
+    if "Chris" in phrase:
+        print ("found him!")
+    else:
+        print ("can't find Chris")
+    ```
+
+* We can also test to see if a string is not in another string by
+using the __`not in`__ keyword in an expression.
+
+    ```python 
+    phrase = "Jackson James John Chris Tom"
+    if "Johnny" not in phrase:
+        print ("No Johnny!")
+    else:
+        print ("Johnny is here!")
+    ```
+
+---
+# string testing functions 
+
+Here are some useful functions that are called on strings (using the 
+__dot operator__):
+
+* __`isalnum()`__ `True` if all characters are alphanumeric
+
+* __`isalpha()`__ `True` if all characters are alphabetic
+
+* __`isdigit()`__ `True` if all characters are digits
+
+* __`islower()`__ `True` is all alpha characters are lower
+
+* __`isspace()`__ `True` if all characters are "whitespace"
+
+* __`isupper()`__ `True` if all alpha characters are upper
+
+
+---
+# string modification functions 
+
+These are also functions called on strings. They return the modified version!
+They do not change the string on which they are called:
+
+* __`lower()`__ 
+ returns a lowercase version of the string
+ 
+* __`upper()`__
+ returns an uppercase version of the string
+ 
+* __`rstrip()`__
+ removes whitespace at end of string
+ 
+* __`lstrip()`__
+removes leading whitespace characters
+
+* __`capitalize()`__
+returns a copy of the string with the first
+character capitalized
+
+* __`title()`__
+returns a copy of the string with the first
+character of each word capitalized
+
+* __`swapcase()`__ 
+returns a copy of the string where case is
+swapped among all alpha characters 
+
+
+
+---
+# searching and replacing
+
+* You can find whether a string exists inside another string by
+using the __`find()`__ function. 
+    
+    ```python
+    phrase = "Like finding a needle in a haystack!"
+    location = phrase.find("needle")
+    print (location)
+    ``` 
+    
+* The `find()` function returns the index of the first
+occurrence of a substring within a string.
+
+* If the `find()` method cannot find the desired substring it
+will return -1
+
+--
+
+* You can have Python replace all occurrences of a substring
+by using the __`replace( )`__ method.
+
+* __`replace( str1, str2 )`__ function replaces every
+occurrence of `str1` with `str2`
+
+    ```python
+    phrase = "Voldemort had one goal in life - to kill Harry Potter."
+    newphrase = word.replace("Voldemort", "He who shall not be named")
+    printprint(phrase)
+    print (newphrase)
+    ```
+
+
+---
+class: center, middle
+
+.section[
+# programming challenges
+]
+---
+
+# password validator
+
+* Write a program that asks the user to enter a username and select a password
+for it. 
+
+* The program the should _validate_ the password using the following rules
+    
+    * the password cannot contain the username as its substring
+    
+    * the password cannot contain the string `password` as its substring
+    
+    * the password has to contain at least one digit
+    
+    * the password has to contain at least one upper case and one lower case character
+    
+* If the password is valid, the program should print "OK". If it is not,
+the program should print "Invalid!" 
+---
+
+# character analysis
+
+* Write a program that counts the number of spaces, digits, vowels
+and consonants in a string that the user inputs. 
+
+example output: 
+
+```
+Enter a phrase: Sally Sells 1000 sea shells.
+
+ Spaces: 4
+ Digits: 4
+ Vowels: 5
+ Consonants: 12
+```
+
+---
+
+# Pig Latin translator 
+
+
+* Write a program that asks the
+user for a word
+
+* Translate their word into Pig
+Latin. A Pig Latin word can be
+generated using the following
+rules:
+
+    * Remove the first letter of the word
+
+    * Place the first letter of the word at the end of the word
+
+    * Add the string "ay" to the end of the word
+
+
+.center[
+<img src="img/pig_latin.png" width=30% alt="variables vs. lists "> 
+]
+
+
+---
+# Palindome tester
+
+* Write a program that asks the user for a word
+
+* Determine whether the supplied word is a palindrome (a word that 
+reads the same backwards and forwards)
+
+
+---
+# Vowel Counter 
+
+* Write a program that counts the #'s of vowels in a
+string (A,E,I,O,U,Y)
+
+* Display the results for each vowel
+
+* Extra challenge: how would you display the results so that they are
+more _visual_ than just numbers. 
+
+
+
+---
+
+
+
+    </textarea>
+     <script src="../js/remark.js" type="text/javascript">
+    </script>
+    <script src="../js/remark_conf.js" type="text/javascript">
+    </script>
+    
+  </body>
+</html>
