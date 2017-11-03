@@ -1,0 +1,673 @@
+
+<html>
+
+<head>
+<link href="../css/exam.css" rel="stylesheet">
+</head>
+
+<body>
+
+
+<p>Here is a quick outline of what will be covered on Midterm #2. We will be going over this in detail during class this week as well.</p>
+<p><strong>Repetition Structures</strong></p>
+<ol>
+<li>Count Controlled Loops ("for" loops)
+<ul>
+<li>mechanics and how they work</li>
+<li>iterating over a list (i.e. for x in [1,2,3,4,5]:)</li>
+<li>using the target variable in a for loop</li>
+<li>nested loops (i.e. loops inside of other loops)</li>
+<li>comparing and contrasting "for" loops with "while" loops (when to use each loop, main advantages of each structure, etc)
+</ul>
+</li>
+<li>The Range Function
+<ul>
+<li>mechanics and how the function works</li>
+<li>creating simple ranges (i.e. range(5))</li>
+<li>creating ranges with defined start and end points (i.e. range(3,10))</li>
+<li>creating ranges with a step value (i.e. range(5,50,5))</li>
+<li>creating ranges that count backwards (i.e. range(50,5,-5))</li>
+<li>user controlled ranges (i.e. range(1, somevariable))</li>
+</ul>
+</li>
+<li>Functions
+<ul>
+<li>mechanics and how functions work</li>
+<li>the “black box” model</li>
+<li>function definitions</li>
+<li>arguments</li>
+<li>return values</li>
+<li>calling a function</li>
+<li>local variables (variables that are defined inside a function and can only be accessed inside that function)</li>
+<li>passing arguments to your own functions</li>
+<li>passing multiple arguments to your own functions</li>
+<li>global variables (variables created outside a function that can be accessed by any part of your program)</li>
+<li>making changes to global variables inside a function using the ‘global’ keyword</li>
+<li>writing a value returning function (i.e. using the ‘return’ keyword to send a result from your function to the part of your program that called that function)</li>
+<li>returning multiple values from a function</li>
+<li>Input, Processing &amp; Output notation</li>
+</ul>
+</li>
+<li>Strings Manipulation
+<ul>
+	<li>Iterating through all characters in a string using a for loop</li>
+	<li>Indexing a specific character in a string using bracket notation</li>
+	<li>Iterating through all characters in a string using string indexes</li>
+	<li>String immutability (you can’t change a string using bracket notation like you would change a list element)</li>
+	<li>Testing a string for substrings using the "in" operator</li>
+	<li>Detecting character types in a string using the built-in string testing methods (isdigit, isalpha, isalnum, islower, isupper, isspace)</li>
+	<li>String slicing</li>
+</ul>
+</li>
+
+</ol>
+<p><strong>Sample Problems</strong></p>
+<p><em>Trace the output of the following programs (each shaded box below is a separate Python program.)</em></p>
+
+<pre>for x in [1,2,3,4,5]:
+    print (x)</pre>
+<p>————</p>
+<pre>for x in [0, 5]:
+    print (x)</pre>
+<p>————</p>
+<pre>for x in range(5):
+    print (x)</pre>
+<p>————</p>
+<pre>for p in range(1,10):
+    print (p)</pre>
+<p>————</p>
+<pre>for q in range(100,50,-10):
+    print (q)</pre>
+<p>————</p>
+<pre>for z in range(-500,500,100):
+    print (z)</pre>
+<p>————</p>
+<pre>for y in range(500,100,100):
+    print ("*", y)</pre>
+<p>————</p>
+<pre>x = 10
+y = 5
+
+for i in range(x-y*2):
+    print ("%", i)</pre>
+<p>————</p>
+<pre>for x in [1,2,3]:
+    for y in [4,5,6]:
+        print (x,y)</pre>
+<p>————</p>
+<pre>for x in range(3):
+    for y in range(4):
+        print (x,y,x+y)</pre>
+<p>————</p>
+<pre>c = 0
+
+for x in range(10):
+    for y in range(5):
+        c += 1
+
+print (c)</pre>
+<p>————</p>
+<pre>def fun1():
+    print ("hi!")
+
+def fun2():
+    print ("bye!")
+
+if 10 &lt; 5 or 5 &gt; 6:
+    fun1()
+    fun2()
+else:
+    fun2()
+    fun1()</pre>
+<p>————</p>
+<pre>def fun(a):
+    print ("a=", a)
+
+for x in range(5):
+    fun(x)</pre>
+<p>————</p>
+<pre>def fun2(a):
+    print (a+100)
+
+c = 5
+
+while c &lt; 10:
+    fun2(c)
+    c+=1</pre>
+<p>————</p>
+<pre>def fun(a,b):
+    c = a**b
+    return c
+
+for x in range(2,4):
+    for y in range(2,4):
+        print (x,y, fun(x,y))</pre>
+<p>————</p>
+<pre>def check(x):
+    if x &gt;= 'a' and x &lt;= 'm':
+        return True
+    else:
+        return False
+
+for name in ['apple', 'pear', 'peach', 'apricot', 'starfruit']:
+
+    result = check(name)
+
+    if result:
+        print (str.upper(name))
+
+    else:
+        print (str.lower(name))</pre>
+<p>————</p>
+<pre>a = 1
+
+def f1(b):
+    global a
+
+    x = b * a
+    a += 1
+
+    return '*' * x
+
+for y in range(5):
+    print (f1(y))</pre>
+<p>————</p>
+<pre>def render(a,b,c,d,e,f,g,h):
+    for i in range(a):
+        print (' ', end='')
+    for j in range(b):
+        print ('*', end='')
+    for k in range(c):
+        print (' ', end='')
+    for m in range(d):
+        print ('*', end='')
+    for n in range(e):
+        print (' ', end='')
+    for o in range(f):
+        print ('*', end='')
+    for p in range(g):
+        print (' ', end='')
+    for q in range(h):
+        print ('*', end='')
+    print()
+
+render (10, 1,  0, 0, 0, 0, 0, 0)
+render (9,  1,  0, 0, 0, 0, 0, 0)
+render (6,  6,  0, 0, 0, 0, 0, 0)
+render (4,  2,  6, 2, 0, 0, 0, 0)
+render (3,  1,  3, 1, 3, 1, 2, 1)
+render (3,  1,  2, 3, 1, 3, 1, 1)
+render (3,  1, 10, 1, 0, 0, 0, 0)
+render (3,  1,  2, 1, 5, 1, 1, 1)
+render (3,  1,  3, 5, 2, 1, 0, 0)
+render (3,  1, 10, 1, 0, 0, 0, 0)
+render (4,  2,  6, 2, 0, 0, 0, 0)
+render (6,  6,  0, 0, 0, 0, 0, 0)</pre>
+<p>————</p>
+<pre>def f1(a):
+    if a &lt; 0:
+        return 0
+    elif a &lt; 2:
+        return 1
+    elif a &lt; 4:
+        return 2
+    else:
+        return 3
+
+for x in range(5):
+    print ('*' * f1(x))</pre>
+<p>————</p>
+
+
+<pre>word = "pikachu"
+for c in word:
+    print (c)</pre>
+<p>————</p>
+    
+    
+<pre>word = "pikachu"
+for i in range(0, len(word)):
+    print (i, word[i])</pre>
+<p>————</p>
+
+
+
+<pre>word = "pikachu"
+for i in range(len(word)-1, -1, -1):
+    print (i, word[i])</pre>
+<p>————</p>
+
+
+<pre>word = "pikachu"
+for i in range(0, len(word), 2):
+    print (i, word[i])</pre>
+<p>————</p>
+
+
+<pre>word = "pikachu"
+print (word[0:len(word):2])</pre>
+<p>————</p>
+
+
+<pre>word = "hello, world"
+newword = word[0:2] + word[-2:]
+
+print (newword)</pre>
+<p>————</p>
+
+
+<pre>def foo(a):
+    b = ""
+    for c in a:
+        if c.isalpha():
+            b+=c
+    return b
+
+print( foo("hello there!") )</pre>
+<p>————</p>
+
+<pre>phrase = "4 score and 7 years ago ..."
+
+for c in phrase:
+    if not (c.isdigit()):
+        print (c, end="")
+    else:
+        x = int(c)
+        if x % 2 == 0:
+            print (x+1, end="")
+        else:
+            print (x-1, end="")</pre>
+<p>————</p>
+            
+
+<br />
+<strong>Programming Problems</strong></p>
+<ol>
+<li>Write a program that prints out all even numbers between 1 and 100,000.</li>
+<li>Write a program that continually asks the user for a series of prices. Keep track of the running total as the user enters prices. Prompt the user after each price to see if they wish to continue entering prices. When they are finished, print out the total amount entered.</li>
+<li>Write a program that asks the user for a number of days. Then prompt the user for their weight on each day they specified (i.e. if they enter 7 you should ask them for 7 weight values). When they are finished print out their average weight for the period in question. Sample running:
+<pre>Enter a number of days: 3
+Day 1: Enter a weight: 180
+Day 2: Enter a weight: 175
+Day 3: Enter a weight: 170
+
+Average weight for 3 days: 175.0</pre>
+<p>————</li>
+
+<li>Re-write the previous program so that you re-prompt them if the user enters an invalid weight y(anything 0 or less). Ensure that you don't move to the next day without getting a valid weight. Sample running:
+<pre>Enter a number of days: 3
+Day 1: Enter a weight: 180
+Day 2: Enter a weight: 0
+Invalid, try again!
+Day 2: Enter a weight: -5
+Invalid, try again!
+Day 2: Enter a weight: 175
+Day 3: Enter a weight: 170
+
+Average weight for 3 days: 175.0</pre>
+<p>————</li>
+
+
+<li>Write a function that accepts two arguments and computes the first argument raised to the power of the second argument. For example:
+<pre>myfun(5,2)
+
+&gt;&gt; 25</pre>
+<p>————</li>
+<li>You are working for a fireworks company that wants to try out a new marketing strategy. They would like to try a new promotion that gives away free fireworks to customers who purchase a certain quantity – the more you buy, the more free fireworks you get! Here is their current promotion:
+<pre>Buy between 1 and 10 fireworks, get 0 free
+Buy between 11 and 20 fireworks, get 1 free
+Buy between 21 and 30 fireworks, get 3 free
+Buy more than 31 fireworks, get 5 free</pre>
+<p>————<br />
+Write a function that accepts one argument (# of fireworks) and returns the number of free fireworks that should be given away with that order.</li>
+<li>Write a program that prompts the user for an amount of fireworks. Then use your fireworks function that you wrote for the previous problem to figure out how many free fireworks they are eligible for. Print out a summary like the following and allow the user to continue entering quantities if desired.
+<pre>Enter a quantity:  100
+You are eligible for 5 free fireworks!
+Would you like to calculate another quantity? (yes/no): yes
+Enter a quantity:  3
+Sorry, you are not eligible for any free fireworks.
+Would you like to calculate another quantity? (yes/no): no</pre>
+<p>————</li>
+<li>Write a function that accepts a grade as a single floating point value and returns its letter equivalent. Letters grades can be determined using the following table:
+<pre>100-90: A
+80-89.99: B
+70-79.99: C
+65-69.99: D
+Lower than 65: F</pre>
+<p>————</li>
+<li>Write a program that continually asks the user for a grade value. Use the function you wrote for question #8 to determine the equivalent letter grade. You can assume the user is finished entering grades when they enter in an invalid number (i.e. one greater than 100 or less than 0). Here is a sample running of this program:
+<pre>Enter a grade:  98
+98 is a(n) A
+Enter a grade:  76
+76 is a(n) C
+Enter a grade:  -2</pre>
+<p>————</li>
+<li>A Pokemon training facility has recently hired you to write an e-commerce application that will allow members of the general public to purchase Pokemon online. Currently only three types of Pokemon will be available through this online store – the cost of each type is as follows:
+<pre>Pokemon		Cost Per Pokemon
+Pikachu		$10.00
+Charmander	$15.00
+Squirtle	$20.00</pre>
+<p>Write a function to that accepts two arguments: the type of Pokemon the user wishes to purchase (as a String) and the number of Pokemon (as an integer). Your function should calculate the total cost of this order and return it to the user (as a float).</p>
+<p>Note that if the function is called with an invalid Pokemon name (i.e. “Bulbasaur”) the function should return the value -1 to the caller. The function should, however, handle uppercase and lowercase versions of the same Pokemon (i.e. both “PIKACHU” and “pikachu” are valid names). You do not need to account for negative quantities in your function (this will be taken care of in the next problem) and you can always assume that the function will be called with an integer value representing the desired quantity.  You only need to write the function outlined above. You will use this function to write a complete program in the next question. Be sure to comment your function using IPO notation.</li>
+<li>Write a program that continually prompts the user for two values – the name of a Pokemon and the desired quantity they wish to purchase. The user can only enter values greater than zero – anything else should cause the program to print an error and re-prompt the user. You can assume that the user will enter an integer during the input phase of your program.
+<p>Next, utilize the function you wrote for the previous question and generate output like the following. Note that you do not need to re-write your function here – you can simply call it as though it was already defined in this program. You should prompt your user at the end of your program to see if they would like to purchase additional Pokemon and, if so, you should run your program again.</p>
+<pre>What kind of Pokemon would you like to buy?  Pikachu
+How many would you like to purchase?  2
+
+2 Pikachu will cost $20.00
+
+Would you like to purchase more Pokemon? (yes/no):  yes
+
+What kind of Pokemon would you like to buy?  Bulbasaur
+How many would you like to purchase?  0
+That’s not a valid number, try again
+How many would you like to purchase?  1
+
+Sorry, that Pokemon is not currently available.
+
+Would you like to purchase more Pokemon? (yes/no):   no</pre>
+</li>
+<li>Write a function that accepts a single string as an argument. Your function should then determine if the string contains a majority of uppercase characters. For example, the String "ABCab" has 3 uppercase characters out of its 5 total characters, so it contains a majority of uppercase characters. If so, return True, and if not return False.</li>
+<li>Write a function that accepts a single string as an argument. Flip the case of the String so that uppercase characters become lowercase and lowercase characters become uppercase.  Return the new string.</li>
+
+<li>Write a FUNCTION called “valid_n_number” that determines if a NYU Student ID is valid. For the purpose of this question a valid NYU Student ID is defined as follows:
+exactly 9 characters long
+begins with the uppercase character ‘N’
+all characters beside the beginning ‘N’ character must be numbers
+Your function should accept a test “N number” as an ARGUMENT (String) and RETURN a status value (Boolean). Here’s a sample program that uses your function:
+
+<pre>
+test1 = valid_n_number("N123")
+test2 = valid_n_number("N1234567890")
+test3 = valid_n_number("P12345678")
+test4 = valid_n_number("NXYZ!5678")
+test5 = valid_n_number("N12345678")
+
+print (test1, test2, test3, test4, test5) </pre>
+And here’s the expected output:
+<pre>
+False False False False True</pre></li>
+
+</ol>
+
+<p><strong>Solutions</strong></p>
+
+<p>Question #1</p>
+<pre>for i in range(2, 100001, 2):
+    print (i)</pre>
+
+
+<p>Question #2</p>
+<pre>total = 0
+again = "yes"
+while again == "yes":
+    p = float(input("Enter a price: "))
+    total += p
+    again = input("Enter another price? (yes or no): ")</pre>
+
+
+<p>Question #3</p>
+<pre>total = 0
+days = int(input("Enter a number of days: "))
+for day in range(days):
+    prompt = "Day " + str(day) + ": Enter a weight: "
+    weight = input(prompt)
+    total += weight
+
+print ("Average weight for", days, "days:", total/days)</pre>
+
+
+
+<p>Question #4</p>
+<pre>total = 0
+days = int(input("Enter a number of days: "))
+for day in range(days):
+    while True:
+        prompt = "Day " + str(day) + ": Enter a weight: "
+        weight = input(prompt)
+        if weight > 0:
+            total += weight
+            break
+        else:
+            print ("Invalid, try again")
+
+print ("Average weight for", days, "days:", total/days)</pre>
+
+    
+
+<p>Question #5</p>
+<pre>def myfun(a,b):
+    print a**b
+
+myfun(5,2)</pre>
+
+
+
+<p>Questions #6 and #7</p>
+<pre>def get_num_free_fireworks(num):
+    if num <= 10:
+        return 0
+    elif num <= 20:
+        return 1
+    elif num <= 30:
+        return 3
+    else:
+        return 5
+
+
+
+while True:
+    q = int(input("Enter a quantity: "))
+    free = get_num_free_fireworks(q)
+    print ("You are eligible for", free, "free fireworks!")
+    again = input("Would you like to run the program again?")
+    if again == "no":
+        break
+</pre>
+
+
+<p>Questions #8 and #9</p>
+<pre>def compute_grade(g):
+    if g >= 90:
+        return 'A'
+    elif g >= 80:
+        return 'B'
+    elif g >= 70:
+        return 'C'
+    elif g >= 65:
+        return 'D'
+    else:
+        return 'F'
+
+
+while True:
+
+    g = int(input("Enter a grade: "))
+    if g > 100 or g < 0:
+        break
+    
+    letter = compute_grade(g)
+    print (g, "is a(n)", letter)
+
+</pre>
+
+
+
+<p>Questions #10 and #11</p>
+<pre>def pokemon_sales(type, quan):
+    lc_type = str.lower(type)
+
+    if lc_type == "pikachu":
+        return 10.0 * quan
+    elif lc_type == "charmander":
+        return 15.0 * quan
+    elif lc_type == "squirtle":
+        return 20.0 * quan
+    else:
+        return -1
+
+while True:
+    pokemon = input("What kind of pokemon would you like to buy? ")
+
+    while True:
+        amount  = int(input("How many would you like to buy? "))
+        if amount <=0:
+            print ("That's not a valid number, try again.")
+        else:
+            break
+
+    cost = pokemon_sales(pokemon, amount)
+
+    if cost == -1:
+        print ("Sorry, that pokemon isn't available")
+    else:
+        print (amount, pokemon, "will cost you", cost)
+</pre>
+
+
+
+<p>Question #12</p>
+<pre>def majority_upper(word):
+    uppercount = 0
+    for c in word:
+        if c.isupper():
+            uppercount += 1
+
+    if uppercount/len(word) >= 0.5:
+        return True
+    else:
+        return False
+</pre>
+
+<p>Question #13</p>
+<pre>def flip_case(word):
+    newword = ""
+    for c in word:
+        if c.isupper():
+            newword += str.lower(c)
+        elif c.islower():
+            newword += str.upper(c)
+
+    return newword
+</pre>
+
+<p>Question #14</p>
+<pre>def valid_n_number(test):
+
+    if len(test) != 9:
+        return False
+    elif test[0] != "N":
+        return False
+    elif test[1:].isdigit() == False:
+        return False
+    else:
+        return True
+</pre> 
+
+
+
+<p>In Class Problem #3 and #4</p>
+<pre># function:    tshirt
+# input:       accepts a number of shirts (integer)
+# processing:  computes total with discount
+# output:      returns total price w/ discount
+def tshirt(quan):
+
+    # compute base price without discount
+    total = 20 * quan
+
+    # do we need to compute a discount?
+    if quan < 10:
+
+        # no discount
+        return total
+
+    elif quan < 20:
+
+        return total - (total * 0.15)
+
+    elif quan < 50:
+
+        return total - (total * 0.25)
+
+    elif quan < 100:
+
+        return total - (total * 0.35)
+
+
+    return total - (total * 0.45)
+
+
+
+# assume the user wants to enter values
+again = "yes"
+while again == "yes":
+
+    # get number of shirts
+    while True:
+        numshirts = int(input("Enter # of shirts: "))
+        if numshirts <= 0:
+            print ("Bad user")
+        else:
+            break
+
+    # compute total
+    total = 20 * numshirts
+
+    # compute discount
+    discount = tshirt(numshirts)
+
+    print ("Total: ", total)
+    print ("Discount: ", discount)
+
+    again = input("Go again? ")
+</pre>
+
+
+
+<p>In Class Problem #5</p>
+<pre>numproducts = int(input("How many products did you purchase? "))
+total = 0
+
+for day in range(numproducts):
+
+    prompt = str(day+1) + ". How much did this product cost? "
+
+    while True:
+        price = float(input(prompt))
+        if price <= 0:
+            print ("Invalid, try again")
+        else:
+            break
+
+    total += price
+
+print ("Average cost:", total / numproducts)</pre>
+
+
+<p>In Class Problem #6</p>
+<pre>rolls = "1,5,2,3,5,4,4,3,1,1,1,2,3,1,5,6,2"
+
+total = 0
+numrolls = 0
+
+for c in rolls:
+
+    # is this a digit?
+    if c.isdigit() == True:
+
+        total += int(c)
+        numrolls += 1
+
+print ("rolls", numrolls)
+print ("total", total)
+print ('avg', total / numrolls)</pre>
+
+
+
+
+
+
+</body>
+
+</html>

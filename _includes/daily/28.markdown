@@ -1,24 +1,29 @@
 
-<div class="lecture1">
+<div class="lecture2">
 
 
 
 <div class="column_date">
 <p markdown="block">
 
-Class # 15 <br> 
-Mon, Oct. 30
+Class # 18 <br> 
+Wed, Nov. 8
 
 </p>
-</div> 
+</div>
 
 
 
 <div class="column_materials" >
 <p markdown="block">
 
-lists in python continued - [slides]({{ site.url }}/slides/week7/lists.html) (these are
-the same slides as last week) 
+
+
+Q&A before the exam. 
+
+Come with questions that you would like to discuss. 
+
+<br> 
 
 </p>
 </div>
@@ -27,7 +32,6 @@ the same slides as last week)
 
 <div class="column_assign">
 <p markdown="block">
-
 
 </p>
 </div>
