@@ -6,7 +6,7 @@
 <div class="column_date">
 <p markdown="block">
 
-Class # 19 <br> 
+Class # 20 <br> 
 Wed, Nov. 15
 
 </p>

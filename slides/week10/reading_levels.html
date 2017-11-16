@@ -53,7 +53,7 @@ __is this book appropriate for a 6 year old or is it more suitable for an 11 yea
     
 --
 
-* why do we care about readability score of books?
+* why do we care about readability score of books/articles/...?
 
 --
     
@@ -61,8 +61,7 @@ __is this book appropriate for a 6 year old or is it more suitable for an 11 yea
         * books that are too hard may discourage students from reading more 
         * books that are too easy do not challenge the students and may be boring 
         
-    * second language learners use books to learn the language 
-
+    * ... what other groups may benefit from readable materials? 
 
 ---
 class: center, middle
@@ -118,7 +117,7 @@ the ninth grade on the Flesch-Kincaid index
     * this is now a standard across the country 
   
   
-* the forumla used for calculation:   
+* the formula used for calculation:   
     
 $$0.39 \\left ( \\frac{\\mbox{total words}}{\\mbox{total sentences}} \\right ) + 11.8 \\left ( \\frac{\\mbox{total syllables}}{\\mbox{total words}} \\right ) - 15.59$$
 
@@ -150,7 +149,7 @@ Source: https://en.wikipedia.org/wiki/Flesch%E2%80%93Kincaid_readability_tests
 
 
 
-the forumla used for calculation:   
+the formula used for calculation:   
 $$
 0.1579 \left (\frac{\mbox{difficult words}}{\mbox{words}}\times 100 \right) + 0.0496 \left (\frac{\mbox{words}}{\mbox{sentences}} \right)
 $$
@@ -259,7 +258,173 @@ the text?
 * [Who is reading your writing?](https://medicine.osu.edu/sitetool/sites/pdfs/ahecpublic/Whos_reading_your_text.pdf), The Ohio State University Medical Center
 
 
+---
+class: center, middle
 
+.section[
+# useful Python tools 
+]
+
+---
+# split function
+
+* split() is one of the _dot_ functions of the strings 
+
+
+
+* it divides a string into a list of words/phrases based on some characters specified as an argument to the function 
+    * by default it splits by spaces
+    * we can specify a string of characters to be used for splitting 
+    as an alternative
+    
+* examples:
+
+```python
+str = "There was once a sweet little maid who lived with her father and mother in a pretty "  
+       + "little cottage at the edge of the village."
+words = str.split() 
+a_split = str.split("a") 
+print(words) 
+print (a_split)
+```
+
+```
+['There', 'was', 'once', 'a', 'sweet', 'little', 'maid', 'who', 'lived', 'with', 'her', 
+'father', 'and', 'mother', 'in', 'a', 'pretty', 'little', 'cottage', 'at', 'the', 'edge', 
+'of', 'the', 'village.']
+
+['There w', 's once ', ' sweet little m', 'id who lived with her f', 'ther ', 
+'nd mother in ', ' pretty little cott', 'ge ', 't the edge of the vill', 'ge.']
+```
+---
+
+# replace function
+
+* replace() is one of the _dot_ function of the strings 
+
+* it replaces one pattern of characters with another and returns the modified string
+
+* example: 
+
+```python
+str = "There was once a sweet little maid who lived with her father and mother in a pretty 
+      + "little cottage at the edge of the village."
+
+str_mod = str.replace(" ", "+++")
+
+print(str_mod) 
+```
+
+```
+There+++was+++once+++a+++sweet+++little+++maid+++who+++lived+++with+++her+++father+++and+++
+mother+++in+++a+++pretty+++little+++cottage+++at+++the+++edge+++of+++the+++village.
+```
+---
+# getting sentences and words
+
+```python
+#exceprt from Little Red Riding Hood
+text="""There was once a sweet little maid who lived with her father and 
+mother in a pretty little cottage at the edge of the village. At the
+further end of the wood was another pretty cottage and in it lived her
+grandmother.
+
+Everybody loved this little girl, her grandmother perhaps loved her
+most of all and gave her a great many pretty things. Once she gave her
+a red cloak with a hood which she always wore, so people called her
+Little Red Riding Hood.
+
+One morning Little Red Riding Hood's mother said, "Put on your things
+and go to see your grandmother. She has been ill; take along this
+basket for her. I have put in it eggs, butter and cake, and other
+dainties."
+
+It was a bright and sunny morning. Red Riding Hood was so happy that
+at first she wanted to dance through the wood. All around her grew
+pretty wild flowers which she loved so well and she stopped to pick a
+bunch for her grandmother."""
+
+word_list = text.split() #splits the text using spaces 
+
+sentence_list = text.replace("\n", " ").split(".")
+
+#print the fiftieth word 
+print (word_list[50])
+
+#print the fifth sentence 
+print (sentence_list[5].strip()) 
+```
+
+---
+# counting syllables 
+
+Installing NLTK package:
+
+* In Canopy go to the __Package Manager__
+
+* search for _nltk_ - if it says that it is installed, you do not need 
+to do anything for this step, otherwise, click the _Install_ button
+
+* 
+
+---
+#
+```python
+from nltk.corpus import cmudict
+d = cmudict.dict()
+
+
+def nsyl(word):
+  return [len(list(y for y in x if y[-1].isdigit())) for x in d[word.lower()]]
+
+word = 'sophisticated' 
+
+if word.lower() in d.keys(): 
+    print(nsyl(word))
+else:
+    print("no such word") 
+```
+
+
+
+---
+# reading text from the web
+
+```python
+import urllib.request
+
+# where should we obtain data from?
+url_war_and_peace = "http://www.gutenberg.org/files/2600/2600-0.txt"
+
+# initiate request to URL
+response = urllib.request.urlopen(url_war_and_peace)
+
+# read data from URL as a string, making sure
+# that the string is formatted as a series of ASCII characters
+data = response.read().decode('utf-8')
+
+# output
+print (len(data) )
+print ("="*10)
+print (data[:100])
+print ("="*10)
+print (data[10000:10100])
+``` 
+
+--
+
+```
+3293635
+==========
+
+The Project Gutenberg EBook of War and Peace, by Leo Tolstoy
+
+This eBook is for the use of anyo
+==========
+ seated himself on the sofa.
+
+“First of all, dear friend, tell me how you are. Set your friend’s
+```
 
 ---
 
