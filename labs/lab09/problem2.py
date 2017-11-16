@@ -4,43 +4,41 @@ problem2.py
 
 Author:  
     
+In this program you will be reading data from the web. You can go through the 
+module that covers that topic at https://cs.nyu.edu/elearning/CSCI_UA_0002/module09.php 
+The class slides for this week also have instructions on how to do this. 
+
+Write a Python program that asks the user to type in a word in English. 
+Determine if that word is one of the most 100 popular English words. 
+Here is a link to a data file on the web which contains this information:
+    https://joannakl.github.io/core109_f17/slides/week10/popular_words_English.txt 
+The words in this file are sorted in alphabetical order.
+
+Here's how to get started:
+
+* Read in the data and print it out (use the sample code above to get started) - use the 
+ code from the slides to read the text of the file from the url above.
+* Next, split the data using the correct separator character (hint: there is a 
+line break between each word).
+* Finally, use appropriate built-in functions and list methods to determine if the 
+user's word is contained in the list that you generated in the previous step.
 
 
-
-Write a program that modifies a given list of numbers if the following way:
-    - if the element is negative, it is multiplied by -1
-    - if the element is positive and a multiple of 3, it should be set to three
-    - if the element is positive and a multiple of 5, it should be set to five
-    - if the element is positive and a multiple of 3 and 5, it should be set to 15 
-(all other values should be unchanged). 
-
-The program below has a few definitions of specific lists called numbers
-but your program should work even if the code is edited to change the 
-content of that list to an arbitrary list of numbers. 
-
-The program should print the list of numbers before and after all mofications are done. 
+Restriction:
+    You are not allowed to use any loops!!!!!
 
 ==============
 Here are a few sample runs of your program:
     
-initial list: 
-[1, -3, 5, -17, 13, 72, -98, 615]
-changed list: 
-[1, 3, 5, 17, 13, 3, 98, 15]
+What word would you like me to search for? 
+here
+Your word is one of the 100 most popular words!
 
 --
 
-initial list: 
-[3, 5, 15, -8, 43, 78, -9]
-changed list: 
-[3, 5, 15, 8, 43, 3, 9]
-
---                
-
-initial list: 
-[5, 2, 3, -1, -2]
-changed list: 
-[5, 2, 3, 1, 2]
+What word would you like me to search for? 
+college
+Sorry, your word is not one of the most popular words.
 
 ==============
 
@@ -51,8 +49,5 @@ __COMMENT YOUR SOURCE CODE__ by
   file (above these instructions)
 """
 
-numbers = [1, -3, 5, -17, 13, 72, -98, 615]
 
-#numbers = [3, 5, 15, -8, 43, 78, -9]
 
-#numbers = [5, 2, 3, -1, -2]
