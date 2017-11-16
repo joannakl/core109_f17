@@ -5,63 +5,28 @@ problem4.py
 Author:  
 
 
+Write a program that performs the Dale-Chall Readability Test on a given text. 
 
-Write a program that asks the user to continually enter student grades. 
-To indicate the end of the list, the user will enter "-1" 
-for the grade. 
+Recall that for this test you will need 
+* the list of 3000 'easy' words
+* the total number of words in the text
+* the total number of sentences in the text 
 
-Your program should validate that the grades are within a valid range of 0 to 100. 
+(See this week's slides for the formula.)
 
-The program should store the grades in a list. 
+You can read the file containing all of the easy words at 
+https://joannakl.github.io/core109_f17/slides/week10/easy_words.txt
 
-Calculate the following information based on the data:
-
-- number of students who took the exam
-
-- average grade on the exam 
-
-- standard deviation of the grades 
-  (see https://joannakl.github.io/core109_f17/slides/week6/grades.pdf if you do not
-  remember how to calculate the standard deviation) 
-  
-Note: taking a square room of a number is the same as raising that number 
-to exponent equal to 0.5. If you want to take a square root of x in Python, you can 
-calculate:
-    sqrt_x = x ** 0.5 
-  
+The program below starts with several url's for books. 
+Your program should run with one of those url's at a time. 
+(Feel free to add your own as well.)  
 
 
 ==============
-Here are a few sample runs of your program:
-    
-Enter the grades one at a time. Enter -1 to indicate the end.
+Sample runs for this program are not provided.
+Depending on how you process your text, the results might be slightly 
+different.    
 
-next grade: 90
-
-next grade: -7
-invalid score, not counted
-
-next grade: 70
-
-next grade: 85
-
-next grade: -1
-
- ----------
-list of grades:  [90, 70, 85]
-number of grades:  3
-average score:     81.66666666666667
-standard dev:      8.498365855987975
-
-===
-
-Enter the grades one at a time. Enter -1 to indicate the end.
-
-next grade: -1
-
- ----------
-list of grades:  []
-number of grades:  0
 
 ==============
 
@@ -72,6 +37,17 @@ __COMMENT YOUR SOURCE CODE__ by
   file (above these instructions)
 """
 
+import urllib.request
 
-    
-    
+# read the text 
+
+
+# Ulysses by James Joyce 
+# url = "https://www.gutenberg.org/ebooks/4300" 
+
+# Pride and Prejudice by Jane Austen 
+# url = "https://www.gutenberg.org/files/1342/1342-0.txt" 
+
+# War and Peace
+# url = "http://www.gutenberg.org/files/2600/2600-0.txt"
+

@@ -15,6 +15,44 @@ Thu, Nov. 16
 <p markdown="block">
 
 
+__Processing texts (due Nov. 29 at 11:55pm)__
+
+---
+
+__Make sure that you read instructions carefully__ - they will save you
+time in a long run! 
+
+__Part 1:  [paper worksheet](labs/lab09/lab09.pdf)__ 
+- Answer questions on a worksheet distributed by your instructor.
+- You should work in groups of 2-3 students. 
+- Hand in the completed worksheet before the end of the session 
+(__you should hand in ONE worksheet per group__). 
+- (You will get credit for this part of the lab only if you attended the recitation session.)
+
+__Part 2: programming problems__ 
+
+- If you are using the lab machine, you should be working with 
+your `PythonAnywhere` account (use a separate tab in the browser so
+that you can switch back and forth between this page and the `PythonAnywhere` 
+page). 
+- If you are using your own computer, you can either use `PythonAnywhere` or 
+Canopy to solve the problems in this lab. 
+
+- Complete the following problems (the instructions are in each of the problems): 
+    - [problem1.py]({{ site.labs_url }}/labs/lab09/problem1.py)
+    - [problem2.py]({{ site.labs_url }}/labs/lab09/problem2.py)
+    - [problem3.py]({{ site.labs_url }}/labs/lab09/problem3.py)
+    - [problem4.py]({{ site.labs_url }}/labs/lab09/problem4.py)
+
+
+--- 
+
+__Submitting your work:__
+
+Once you are done with all the problems, you will need to upload them to 
+NYU Classes. Use _lab09_ link under the _Assignments_ link. 
+
+
 </p>
 </div>
 
