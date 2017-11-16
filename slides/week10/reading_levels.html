@@ -356,38 +356,6 @@ print (sentence_list[5].strip())
 ```
 
 ---
-# counting syllables 
-
-Installing NLTK package:
-
-* In Canopy go to the __Package Manager__
-
-* search for _nltk_ - if it says that it is installed, you do not need 
-to do anything for this step, otherwise, click the _Install_ button
-
-* 
-
----
-#
-```python
-from nltk.corpus import cmudict
-d = cmudict.dict()
-
-
-def nsyl(word):
-  return [len(list(y for y in x if y[-1].isdigit())) for x in d[word.lower()]]
-
-word = 'sophisticated' 
-
-if word.lower() in d.keys(): 
-    print(nsyl(word))
-else:
-    print("no such word") 
-```
-
-
-
----
 # reading text from the web
 
 ```python
