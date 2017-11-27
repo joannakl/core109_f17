@@ -1,0 +1,49 @@
+
+<div class="lecture1">
+
+
+
+<div class="column_date">
+<p markdown="block">
+
+Class # 22 <br> 
+Mon, Nov. 20
+
+</p>
+</div> 
+
+
+
+<div class="column_materials" >
+<p markdown="block">
+
+[drawing with Turtle and trigonometry]({{ site.url }}/slides/week11/drawing_with_turtle.html) <br><br>
+
+sample programs:<br>
+- [basic_turtle.py]({{ site.url }}/slides/week11/basic_turtle.py)
+- [documentation_turtle.py]({{ site.url }}/slides/week11/documentation_turtle.py)
+- [drawing_sin_cos.py]({{ site.url }}/slides/week11/drawing_sin_cos.py)
+- [artist1.py]({{ site.url }}/slides/week11/artist1.py)
+- [artist2.py]({{ site.url }}/slides/week11/artist2.py)
+
+ <br> 
+
+</p>
+</div>
+
+
+
+<div class="column_assign">
+<p markdown="block">
+
+Read before next class: 
+
+* [This Surprising Reading Level Analysis Will Change the Way You Write](https://contently.com/strategist/2015/01/28/this-surprising-reading-level-analysis-will-change-the-way-you-write/)  by Shane Snow 
+
+* [Who is reading your writing?](https://medicine.osu.edu/sitetool/sites/pdfs/ahecpublic/Whos_reading_your_text.pdf), The Ohio State University Medical Center
+
+
+</p>
+</div>
+
+</div>
