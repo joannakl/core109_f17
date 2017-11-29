@@ -1,0 +1,36 @@
+
+<div class="lecture2">
+
+
+
+<div class="column_date">
+<p markdown="block">
+
+<br> 
+Wed, Nov. 29
+
+</p>
+</div>
+
+
+
+<div class="column_materials" >
+<p markdown="block">
+
+Student presentations. <br><br> 
+
+Counting and probability,  continued.
+<br> 
+
+</p>
+</div>
+
+
+
+<div class="column_assign">
+<p markdown="block">
+
+</p>
+</div>
+
+</div>
