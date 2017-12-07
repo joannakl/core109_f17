@@ -17,7 +17,8 @@ Wed, Nov. 29
 <div class="column_materials" >
 <p markdown="block">
 
-Student presentations. <br><br> 
+Student presentations: 
+- DNA strand matching <br><br> 
 
 Counting and probability,  continued.
 <br> 

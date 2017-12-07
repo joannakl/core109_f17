@@ -1,0 +1,40 @@
+
+<div class="lecture1">
+
+
+
+<div class="column_date">
+<p markdown="block">
+
+Class # 23 <br> 
+Mon, Nov. 27
+
+</p>
+</div> 
+
+
+
+<div class="column_materials" >
+<p markdown="block">
+
+
+Student presentations: 
+- _smart_ cities 
+- analyzing patterns in music that result in a hit song 
+- mathematics of  music 
+- using Python and data analysis for detecting politycal bots on Twitter
+
+
+</p>
+</div>
+
+
+
+<div class="column_assign">
+<p markdown="block">
+
+
+</p>
+</div>
+
+</div>

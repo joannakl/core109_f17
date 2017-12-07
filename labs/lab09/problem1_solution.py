@@ -70,18 +70,27 @@ print("Text has", len(question_marks)-1, "question marks.")
 exclamation_marks = text.split("!")
 print("Text has", len(exclamation_marks)-1, "exclamation marks.")
 
-commas = text.split(",")
-print("Text has", len(commas)-1, "commas.")  
+commas_count = text.count(",")
+print("Text has", commas_count, "commas.")  
 
-colons = text.split(":")
-print("Text has", len(colons)-1, "colons.")  
+colons_count = text.count(":")
+print("Text has", colons_count, "colons.")  
 
-semicolons = text.split(";")
-print("Text has", len(semicolons)-1, "semicolons.")  
+semicolons_count = 0 
+single_quotes_count = 0 
+double_quotes_count = 0
 
-single_quotes = text.split("'")
-print("Text has", len(single_quotes)-1, "single quotes.")
+for c in text: 
+    if c == ';' :
+        semicolons_count += 1
+    elif c == "'" :
+        single_quotes_count += 1
+    elif c == '"' :
+        double_quotes_count += 1 
 
-double_quotes = text.split('"')
-print("Text has", len(double_quotes)-1, "double quotes.")  
+print("Text has", semicolons_count, "semicolons.")  
+
+print("Text has", single_quotes_count, "single quotes.")
+
+print("Text has", double_quotes_count, "double quotes.")  
 
