@@ -5,16 +5,60 @@ problem4.py
 Author:  
 
 
-Write a program that counts occurrences of all letters in a book. You should NOT be 
-keeping counters for every letter. Instead, you should work with two lists: one that contains the letters and one 
-that contains the counts. Your `for` loops will need to iterate over indexes in these two arrays.
+Write a program that plays a lottery.
+The user is asked to pick 4 numbers for the game. 
+The numbers should be between 1 and 10 (your program should verify this). 
 
-The program should open a book given a specific URL (some example URL's are
-listed below). It should produce the results with counts of all of the letters 
-as well as the sum of all the letters (this does not include the spaces, punctuation marks, 
-digits or any other non-letter characters). Make sure that both upper and lowercase letters are
-counted. 
-    
+The program should generate its own list of 4 random lucky numbers and it
+should display the results that state how many out of the lucky numbers
+the user got. 
+
+----
+Here are some sample runs of the program:
+
+Pick four numbers from 1 to 100 as your lottery choices.
+
+Enter your number 1: 9
+
+Enter your number 2: 8
+
+Enter your number 3: 7
+
+Enter your number 4: 6
+
+CONGRATULATIONS: you picked 3 of the four lucky numbers: [9, 1, 7, 8]    
+ 
+
+-- 
+
+Pick four numbers from 1 to 100 as your lottery choices.
+
+Enter your number 1: 1
+
+Enter your number 2: 6
+
+Enter your number 3: 3
+
+Enter your number 4: 8
+
+CONGRATULATIONS: you picked 1 of the four lucky numbers: [4, 8, 8, 2]     
+ 
+
+-- 
+
+Pick four numbers from 1 to 100 as your lottery choices.
+
+Enter your number 1: 1
+
+Enter your number 2: 7
+
+Enter your number 3: 2
+
+Enter your number 4: 9
+
+Sorry, you did not get any lucky numbers   
+        
+ 
 
 
 ==============
@@ -23,23 +67,8 @@ __COMMENT YOUR SOURCE CODE__ by
 
 * briefly describing parts of your program 
 * including your name at the top of your
-  file (above these instructions)
+  file (above these instructions)           
+                    
 """
 
-import urllib.request
-
-# read the text 
-
-
-# Romeo and Juliet (English) 
-# url="http://www.gutenberg.org/cache/epub/1513/pg1513.txt" 
-
-# Romeo and Juliet (Polish) 
-# url="http://www.gutenberg.org/files/27062/27062-0.txt" 
-
-# Romeo and Juliet (German) 
-# url="http://www.gutenberg.org/cache/epub/6996/pg6996.txt" 
-
-# Romeo and Juliet (Tagalog) 
-# url="http://www.gutenberg.org/cache/epub/15418/pg15418.txt" 
 
