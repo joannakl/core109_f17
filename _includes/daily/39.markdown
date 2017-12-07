@@ -7,7 +7,7 @@
 <p markdown="block">
 
 Class # 23 <br> 
-Mon, Nov. 27
+Mon, Dec 4
 
 </p>
 </div> 
