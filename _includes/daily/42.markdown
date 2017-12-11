@@ -1,0 +1,37 @@
+
+<div class="lecture1">
+
+
+
+<div class="column_date">
+<p markdown="block">
+
+Mon, Dec 11
+
+</p>
+</div> 
+
+
+
+<div class="column_materials" >
+<p markdown="block">
+
+
+Student presentations:
+- hotel ratings
+- homelessness problem
+- bitcoin and cryptocurrencies phenomenon 
+
+</p>
+</div>
+
+
+
+<div class="column_assign">
+<p markdown="block">
+
+
+</p>
+</div>
+
+</div>

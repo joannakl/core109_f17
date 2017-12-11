@@ -1,0 +1,40 @@
+
+<div class="lecture1">
+
+
+
+<div class="column_date">
+<p markdown="block">
+
+Wed, Dec 13
+
+</p>
+</div> 
+
+
+
+<div class="column_materials" >
+<p markdown="block">
+
+
+Q&amp;A 
+
+- review all sample problems for the first two exams 
+- review problems from the slides 
+
+
+
+
+</p>
+</div>
+
+
+
+<div class="column_assign">
+<p markdown="block">
+
+
+</p>
+</div>
+
+</div>

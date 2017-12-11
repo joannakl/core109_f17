@@ -1,0 +1,26 @@
+<div class="recitation">
+
+
+
+<div class="column_date">
+<p markdown="block">
+
+Thu, Dec 7
+
+</p>
+</div>
+
+
+<div class="column_recitation" >
+<p markdown="block">
+
+Problem solving / Review session 
+
+We will be working on whatever problems you want to see solved. 
+Let us know ahead of time if there are particular problems you want to see solutions to. 
+
+</p>
+</div>
+
+
+</div>

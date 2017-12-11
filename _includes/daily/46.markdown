@@ -1,0 +1,43 @@
+
+<div class="important">
+
+<!--
+<div class="lecture1">
+<div class="lecture2">
+<div class="recitation">
+<div class="important">
+-->
+<div class="column_date">
+
+ <br> 
+ 
+
+</div>
+
+<div class="column_materials">
+<p markdown="block">
+
+Final exams: <br>
+Dec. 18, Monday, 8:00-9:50 am, room 125 7E12 (7 East 12th Street) <br> 
+
+- bring a calculator (you should know how to use it)
+- bring three double sided pages of your own notes 
+
+
+
+
+
+
+<br><br>
+
+
+</p>
+</div>
+
+<div class="column_assign">
+<p markdown="block">
+
+</p>
+</div>
+    
+</div>

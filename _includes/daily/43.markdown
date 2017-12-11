@@ -1,0 +1,35 @@
+
+<div class="lecture2">
+
+
+
+<div class="column_date">
+<p markdown="block">
+
+<br> 
+Tue, Dec 12 
+
+</p>
+</div>
+
+
+
+<div class="column_materials" >
+<p markdown="block">
+
+_Legislative day = we have Monday on Tuesday_ <br>
+
+Student presentations: 
+
+</p>
+</div>
+
+
+
+<div class="column_assign">
+<p markdown="block">
+
+</p>
+</div>
+
+</div>
