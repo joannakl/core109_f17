@@ -95,12 +95,12 @@ The output of your mofied program should be similar to:
 How many times should I roll the die? 
 1000000
 Rolling 1000000 times.
-1 was rolled 222099 many times (22.209899999999998% of times)
-2 was rolled 221374 many times (22.1374% of times)
-3 was rolled 222807 many times (22.2807% of times)
-4 was rolled 111084 many times (11.1084% of times)
-5 was rolled 111599 many times (11.1599% of times)
-6 was rolled 111037 many times (11.1037% of times)
+1 was rolled .222099 many times (22.209899999999998% of times)
+2 was rolled .221374 many times (22.1374% of times)
+3 was rolled .222807 many times (22.2807% of times)
+4 was rolled .111084 many times (11.1084% of times)
+5 was rolled .111599 many times (11.1599% of times)
+6 was rolled .111037 many times (11.1037% of times)
 -----
 
 
